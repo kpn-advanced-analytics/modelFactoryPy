@@ -1,7 +1,8 @@
 
 import sqlalchemy
 import pandas as pd
-from main import *
+import numpy as np
+import main
 
 
 def getSummary(df):
@@ -18,6 +19,7 @@ def getSummary(df):
 def getTestResults(scores,labels):
     a = pd.DataFrame(zip(scores,labels),columns=['score','label'])
     a = a.sort('score', ascending = 0)
+    a = a.reset_index(drop = True)
     a["population"]=(a.index+1)/float(len(a))
     a["target_population"] = np.cumsum(a["label"])/sum(a["label"])
     a["true_positives"] = np.cumsum(a["label"])

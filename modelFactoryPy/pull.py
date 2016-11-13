@@ -1,14 +1,14 @@
 
 import sqlalchemy
 import pandas as pd
-from main import *
+import main
 
 def pullSummary(session_id):
     if type(session_id) == list:
         session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ("+session_id+")", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ("+session_id+")", main.engine)
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ('"+session_id+"')", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ('"+session_id+"')", main.engine)
     else:
         raise ValueError('Session id must be of type list or str')
     if len(check_session_id) > 0:
@@ -19,9 +19,9 @@ def pullSummary(session_id):
 def pullTestResults(session_id):
     if type(session_id) == list:
         session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ("+session_id+")", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ("+session_id+")", main.engine)
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
     else:
         raise ValueError('Session id must be of type list or str')
     if len(check_session_id) > 0:
@@ -48,7 +48,7 @@ def pullConfMatrix(session_id, threshold_value, threshold_type):
     if type(session_id) != str:
          raise ValueError('Session id must be of type str')
     else:    
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
     if len(check_session_id) > 0:
         tr = check_session_id       
     else:
@@ -68,7 +68,7 @@ def pullAccuracy(session_id, threshold_value, threshold_type):
     if type(session_id) != str:
          raise ValueError('Session id must be of type str')
     else:    
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
     if len(check_session_id) > 0:
         tr = check_session_id       
     else:
@@ -84,9 +84,9 @@ def pullAccuracy(session_id, threshold_value, threshold_type):
 def pullModelScores(session_id):
     if type(session_id) == list:
         session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ("+session_id+")", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ("+session_id+")", main.engine)
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ('"+session_id+"')", engine)
+        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ('"+session_id+"')", main.engine)
     else:
         raise ValueError('Session id must be of type list or str')
     if len(check_session_id) > 0:
