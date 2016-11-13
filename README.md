@@ -15,6 +15,8 @@ Python package for Model Factory created by Advanced Analytics team at KPN.
       
 2) Copy the config.yaml file that you can find in the repository in folder specified in MODELFACTORY (e.g., C:\Projects). Fill in the config.yaml file with the username, password and host you use to connect to PostgresSQL.
 
-3) We are almost there. You have to install SQLAlchemy (http://pythoncentral.io/how-to-install-sqlalchemy/) and psycopg2 package.
+3) Run postgres_create_tables.sql file in PostgresSQL to create correct schema and tables.
 
-4) You should be able to run the template file without any errors.
+4) We are almost there. You have to install SQLAlchemy (http://pythoncentral.io/how-to-install-sqlalchemy/) and psycopg2 package.
+
+5) You should be able to run the template file without any errors.
