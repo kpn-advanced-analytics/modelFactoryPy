@@ -8,4 +8,9 @@ setup(name='modelFactoryPy',
       author_email='mariia.vechtomova@kpn.com',
       license='MIT',
       packages=['modelFactoryPy'],
+      classifiers=[
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+      ],
       zip_safe=False)
