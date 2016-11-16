@@ -4,7 +4,7 @@ Python package for Model Factory created by Advanced Analytics team at KPN.
 Presentation about Model Factory can be found there: http://www.slideshare.net/MariaVechtomova/model-factory-presentation-meetup.
 Detailed overview will follow soon.
 
-### How to get started with your own ModelFactory:
+### How to get started with your own Model Factory:
 
 1) First of all, you need PostgresSQL. If you do not have it and want to play with modelfactory, install PostgresSQL on your laptop or use Amazon RDS (it allows a one year free trial).
 
