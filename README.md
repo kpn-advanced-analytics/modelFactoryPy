@@ -1,7 +1,7 @@
 # modelFactoryPy
 Python package for Model Factory created by Advanced Analytics team at KPN.
 
-Presentation about Model Factory can be found there: http://www.slideshare.net/MariaVechtomova/model-factory-presentation-meetup
+Presentation about Model Factory can be found there: http://www.slideshare.net/MariaVechtomova/model-factory-presentation-meetup.
 Detailed overview will follow soon.
 
 **How to get started with your own ModelFactory:**
