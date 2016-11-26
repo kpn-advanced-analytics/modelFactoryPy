@@ -6,9 +6,9 @@ Detailed overview will follow soon.
 
 ### How to get started with your own Model Factory:
 
-1) First of all, you need PostgresSQL. If you do not have it and want to play with modelfactory, install PostgresSQL on your laptop or use Amazon RDS (it allows a one year free trial).
+1) First of all, you need PostgresSQL. If you do not have it and want to play with modelfactory, install PostgresSQL on your laptop or use Amazon RDS (it allows a one year free trial). **ModelFactory works now also with Aster** (has some limitations at the moment, see sqlalchemy_mf_aster.
 
-2) After PostgresSQL is installed, create MODELFACTORY environmental variable. On Windows it can be tricky, you need to do the following:
+2) After PostgresSQL (or Aster) is installed, create MODELFACTORY environmental variable. On Windows it can be tricky, you need to do the following:
    
       -add a system environment variable MODELFACTORY with value of folder of your choice, for example: C:\Projects;
       
@@ -16,11 +16,11 @@ Detailed overview will follow soon.
       
       -in command line call echo %MODELFACTORY% -> this should return the specified path
       
-3) Copy the config.yaml file that you can find in the repository in folder specified in MODELFACTORY (e.g., C:\Projects). Fill in the config.yaml file with the username, password and host you use to connect to PostgresSQL.
+3) Copy the config.yaml file that you can find in the repository in folder specified in MODELFACTORY (e.g., C:\Projects). Fill in the config.yaml file with the username, password and host you use to connect to PostgresSQL/Aster.
 
 4) Run postgres_create_tables.sql file in PostgresSQL to create correct schema and tables.
 
-5) We are almost there. You have to install SQLAlchemy (http://pythoncentral.io/how-to-install-sqlalchemy/) and psycopg2 package.
+5) We are almost there. You have to install SQLAlchemy (http://pythoncentral.io/how-to-install-sqlalchemy/) and psycopg2 package. If you use Aster, you can install dialect sqlalchemy_mf_aster.
 
 6) Install the package (by downloading or cloning it locally and calling the following from cmd: pip install -e path-to-folder-with-package
 
