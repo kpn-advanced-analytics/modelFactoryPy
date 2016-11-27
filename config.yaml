@@ -1,5 +1,11 @@
 ---
-postgres:
+postgressql:
   username: your_username
-  password: your_password
+  password: yout_password
   host: your_host
+  database: your_database
+aster:
+  username: your_username
+  password: yout_password
+  host: your_host
+  database: your_database

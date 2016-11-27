@@ -6,65 +6,79 @@ import pandas as pd
 import time
 import datetime
 from random import randint
-import getpass
+#import getpass
 
 
-def getConnection():
+def getConnection(database = 'postgressql'):
     global config
     global engine
-    config = yaml.load(open(os.environ['MODELFACTORY']+"\\config.yaml")) ## needs to be changed
-    engine = sqlalchemy.create_engine("postgresql://"+config.get('postgres').get('username')+":"+
-                                      config.get('postgres').get('password')+"@"+config.get('postgres').get('host')+"/postgres")
+    config = yaml.load(open(os.environ['MODELFACTORY']+"\\config.yaml")).get(database) ## needs to be changed
+    engine = sqlalchemy.create_engine(database+"://"+config.get('username')+":"+config.get('password')+"@"+
+                                      config.get('host')+"/"+config.get('database'))
     return engine
-## here add extra options (getConnection to TD/postgressql; if statements: Jenkins user or normal user; streamAPI option)
+## add streamAPI option + Jenkins
 #getpass.getuser()
 
 
 def addModelId(model_id, model_description, score_id_type):
-    check_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+model_id+"'", engine)
+    connection = engine.connect()
+    a = connection.execute("select * from model_factory.model_overview where model_id='"+model_id+"'")
+    b = a.fetchall()
+    check_model_id = pd.DataFrame.from_records(b,columns = a.keys())
     if len(check_model_id) > 0:
         raise ValueError('Given model_id is already present in model_factory.model_overview table')
+        connection.close()
     else:
-        df = pd.DataFrame(zip([model_id], [model_description], [score_id_type])
-             , columns=['model_id','model_description', 'score_id_type'])
-        df.to_sql("model_overview", engine,  schema="model_factory", if_exists='append', index = False) ## it will add rows to model_overview table      
+        connection.execute("INSERT INTO model_factory.model_overview (model_id,model_description,score_id_type) VALUES ('%s', '%s', '%s')"
+                          % (model_id, model_description, score_id_type))
+        connection.close()
+        ## it will add rows to model_overview table
 
 
 def deleteModelId(model_id):
-    check_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+model_id+"'", engine)
+    connection = engine.connect()
+    a = connection.execute("select * from model_factory.model_overview where model_id='" + model_id + "'")
+    b = a.fetchall()
+    check_model_id = pd.DataFrame.from_records(b, columns=a.keys())
     if len(check_model_id) == 0:
         raise ValueError('Given model_id is already removed from model_factory.model_overview table')
+        connection.close()
     else:
-        connection = engine.connect()
         connection.execute("delete from model_factory.model_overview where model_id='"+model_id+"'")
         connection.close()
 
 
 def updateThreshold(model_id, threshold_value, threshold_type):
-    check_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+model_id+"'", engine)
+    connection = engine.connect()
+    a = connection.execute("select * from model_factory.model_overview where model_id='" + model_id + "'")
+    b = a.fetchall()
+    check_model_id = pd.DataFrame.from_records(b, columns=a.keys())
     if len(check_model_id) == 0:
         raise ValueError('Given model_id is not present in model_factory.model_overview table. Please use function addModelId first')
+        connection.close()
     else:
         if (threshold_type != "probability" and threshold_type != "population"):
             raise ValueError('Given threshold type is not population or probability')
         else:
-            connection = engine.connect()
-            connection.execute("update model_factory.model_overview set threshold_value='"+threshold_value+"', threshold_type='"+
+            connection.execute("update model_factory.model_overview set threshold_value='"+str(threshold_value)+"', threshold_type='"+
                                threshold_type+"' where model_id='"+model_id+"'")
             connection.close()
 
 
 def getSessionId(model_id):
     global session_id
-    ## check whether model_id is present in model_overview table -> throw an error if not
-    check_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+model_id+"'", engine)
+    connection = engine.connect()
+    a = connection.execute("select * from model_factory.model_overview where model_id='" + model_id + "'")
+    b = a.fetchall()
+    check_model_id = pd.DataFrame.from_records(b, columns=a.keys())
     if len(check_model_id) == 0:
         raise ValueError('Given model_id is not present in model_factory.model_overview table. Please use function addModelId first')
+        connection.close()
     else:
-        session_id = config.get('postgres').get('username')+"_"+model_id+"_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y%m%d')+"_"+str(randint(1000, 1000000))
-        df = pd.DataFrame(zip([session_id], [config.get('postgres').get('username')], [model_id], [datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')])
-                 , columns=['session_id','user_id', 'model_id', 'start_time'])
-        df.to_sql("run_history", engine,  schema="model_factory", if_exists='append', index = False) ## it will add rows to run_history table
+        session_id = config.get('username')+"_"+model_id+"_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y%m%d')+"_"+str(randint(1000, 1000000))
+        connection.execute("INSERT INTO model_factory.run_history (session_id,  user_id, model_id, start_time) VALUES ('%s', '%s', '%s', '%s')"
+                          % (session_id, config.get('username'), model_id, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+        connection.close()
         return session_id
 
 
@@ -108,10 +122,18 @@ def deleteSession(session_id):
 def renameModel(old_model_id, new_model_id):
     
     connection = engine.connect()
-    
-    check_old_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+old_model_id+"'", engine)
-    check_old_model_id1 = pd.read_sql("select * from model_factory.run_history where model_id='"+old_model_id+"'", engine)
-    check_new_model_id = pd.read_sql("select * from model_factory.model_overview where model_id='"+new_model_id+"'", engine)
+
+    a1 = connection.execute("select * from model_factory.model_overview where model_id='"+old_model_id+"'")
+    b1 = a1.fetchall()
+    check_old_model_id = pd.DataFrame.from_records(b1, columns=a1.keys())
+
+    a2 = connection.execute("select * from model_factory.run_history where model_id='" + old_model_id + "'")
+    b2 = a2.fetchall()
+    check_old_model_id1 = pd.DataFrame.from_records(b2, columns=a2.keys())
+
+    a3 = connection.execute("select * from model_factory.model_overview where model_id='" + new_model_id + "'")
+    b3 = a3.fetchall()
+    check_new_model_id = pd.DataFrame.from_records(b3, columns=a3.keys())
     
     if len(check_old_model_id) == 0:
         raise ValueError('Given old_model_id is not present in model_factory.model_overview table, therefore can not be renamed')

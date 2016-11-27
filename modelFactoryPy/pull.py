@@ -5,29 +5,43 @@ import main
 
 def pullSummary(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ("+session_id+")", main.engine)
+        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_summary where session_id in ('"+session_id+"')", main.engine)
+        session_id = session_id
     else:
         raise ValueError('Session id must be of type list or str')
+
+    connection = main.engine.connect()
+    a = connection.execute("select * from model_factory.model_summary where session_id in ('"+session_id+"')")
+    b = a.fetchall()
+    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+
     if len(check_session_id) > 0:
-        return check_session_id       
+        return check_session_id
+        connection.close()
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_summary table')   
+        raise ValueError('Given session_id is not present in model_factory.model_summary table')
+        connection.close()
 
 def pullTestResults(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ("+session_id+")", main.engine)
+        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
+        session_id = session_id
     else:
         raise ValueError('Session id must be of type list or str')
+
+    connection = main.engine.connect()
+    a = connection.execute("select * from model_factory.model_test_results where session_id in ('"+session_id+"')")
+    b = a.fetchall()
+    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+
     if len(check_session_id) > 0:
-        return check_session_id       
+        return check_session_id
+        connection.close()
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_test_results table')  
+        raise ValueError('Given session_id is not present in model_factory.model_test_results table')
+        connection.close()
 
 
 def pullROC(session_id):
@@ -47,12 +61,8 @@ def pullLiftChart(session_id):
 def pullConfMatrix(session_id, threshold_value, threshold_type):
     if type(session_id) != str:
          raise ValueError('Session id must be of type str')
-    else:    
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
-    if len(check_session_id) > 0:
-        tr = check_session_id       
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_test_results table') 
+        tr = pullTestResults(session_id)
     if threshold_type == "population":
         tr = tr[tr.population <= threshold_value].tail(1)
     if threshold_type == "probability":
@@ -67,12 +77,8 @@ def pullConfMatrix(session_id, threshold_value, threshold_type):
 def pullAccuracy(session_id, threshold_value, threshold_type):
     if type(session_id) != str:
          raise ValueError('Session id must be of type str')
-    else:    
-        check_session_id = pd.read_sql("select * from model_factory.model_test_results where session_id in ('"+session_id+"')", main.engine)
-    if len(check_session_id) > 0:
-        tr = check_session_id       
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_test_results table') 
+        tr = pullTestResults(session_id)
     if threshold_type == "population":
         tr1 = tr[tr.population <= threshold_value].tail(1)
     if threshold_type == "probability":
@@ -83,14 +89,20 @@ def pullAccuracy(session_id, threshold_value, threshold_type):
 
 def pullModelScores(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')
-        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ("+session_id+")", main.engine)
+        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
     if type(session_id) == str:
-        check_session_id = pd.read_sql("select * from model_factory.model_scores where session_id in ('"+session_id+"')", main.engine)
+        session_id = session_id
     else:
         raise ValueError('Session id must be of type list or str')
-    if len(check_session_id) > 0:
-        return check_session_id       
-    else:
-        raise ValueError('Given session_id is not present in model_factory.model_scores table')   
 
+    connection = main.engine.connect()
+    a = connection.execute("select * from model_factory.model_scores where session_id in ('"+session_id+"')")
+    b = a.fetchall()
+    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+
+    if len(check_session_id) > 0:
+        return check_session_id
+        connection.close()
+    else:
+        raise ValueError('Given session_id is not present in model_factory.model_scores table')
+        connection.close()

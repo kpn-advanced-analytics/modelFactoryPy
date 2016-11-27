@@ -1,4 +1,4 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: modelFactoryPy
 Version: 0.1
 Summary: KPN Python package for Model Factory
@@ -8,3 +8,6 @@ Author-email: mariia.vechtomova@kpn.com
 License: MIT
 Description: UNKNOWN
 Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
