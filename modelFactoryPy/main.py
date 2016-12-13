@@ -12,7 +12,7 @@ from random import randint
 def getConnection(database = 'postgressql'):
     global config
     global engine
-    config = yaml.load(open(os.environ['MODELFACTORY']+"\\config.yaml")).get(database) ## needs to be changed
+    config = yaml.load(open(os.environ['MODELFACTORY']+"/config.yaml")).get(database) ## needs to be changed
     engine = sqlalchemy.create_engine(database+"://"+config.get('username')+":"+config.get('password')+"@"+
                                       config.get('host')+"/"+config.get('database'))
     return engine
