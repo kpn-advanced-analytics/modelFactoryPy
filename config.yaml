@@ -1,5 +1,5 @@
 ---
-postgressql:
+postgresql:
   username: your_username
   password: yout_password
   host: your_host

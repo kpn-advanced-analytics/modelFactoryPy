@@ -9,7 +9,7 @@ from random import randint
 #import getpass
 
 
-def getConnection(database = 'postgressql'):
+def getConnection(database = 'postgresql'):
     global config
     global engine
     config = yaml.load(open(os.environ['MODELFACTORY'].replace('\\','/')+"/config.yaml")).get(database) ## needs to be changed
