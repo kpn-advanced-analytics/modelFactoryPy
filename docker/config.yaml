@@ -1,0 +1,6 @@
+---
+postgresql:
+  username: modelfactory
+  password: modelfactory
+  host: localhost:5432
+  database: postgres

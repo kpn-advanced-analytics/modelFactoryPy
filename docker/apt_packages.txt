@@ -13,3 +13,5 @@ sed
 dpkg
 build-essential
 wget
+libpq-dev
+python-dev

@@ -1,0 +1,892 @@
+"passengerid","survived","pclass","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","survived_int","title","family","train"
+799,"Perished","Third","Ibrahim Shawah, Mr. Yousseff","male",30,0,0,"2685",7.2292,"","C",0,"Mr",0,1
+237,"Perished","Second","Hold, Mr. Stephen","male",44,1,0,"26707",26,"","S",0,"Mr",1,1
+331,"Survived","Third","McCoy, Miss. Agnes","female",21.4772727272727,2,0,"367226",23.25,"","Q",1,"Miss",2,1
+509,"Perished","Third","Olsen, Mr. Henry Margido","male",28,0,0,"C 4001",22.525,"","S",0,"Mr",0,1
+806,"Perished","Third","Johansson, Mr. Karl Johan","male",31,0,0,"347063",7.775,"","S",0,"Mr",0,1
+179,"Perished","Second","Hale, Mr. Reginald","male",30,0,0,"250653",13,"","S",0,"Mr",0,1
+796,"Perished","Second","Otter, Mr. Richard","male",39,0,0,"28213",13,"","S",0,"Mr",0,1
+836,"Survived","First","Compton, Miss. Sara Rebecca","female",39,1,1,"PC 17756",83.1583,"E49","C",1,"Miss",2,1
+584,"Perished","First","Ross, Mr. John Hugo","male",36,0,0,"13049",40.125,"A10","C",0,"Mr",0,1
+555,"Survived","Third","Ohman, Miss. Velin","female",22,0,0,"347085",7.775,"","S",1,"Miss",0,1
+55,"Perished","First","Ostby, Mr. Engelhart Cornelius","male",65,0,1,"113509",61.9792,"B30","C",0,"Mr",1,1
+182,"Perished","Second","Pernot, Mr. Rene","male",33.5757575757576,0,0,"SC/PARIS 2131",15.05,"","C",0,"Mr",0,1
+156,"Perished","First","Williams, Mr. Charles Duane","male",51,0,1,"PC 17597",61.3792,"","C",0,"Mr",1,1
+604,"Perished","Third","Torber, Mr. Ernst William","male",44,0,0,"364511",8.05,"","S",0,"Mr",0,1
+337,"Perished","First","Pears, Mr. Thomas Clinton","male",29,1,0,"113776",66.6,"C2","S",0,"Mr",1,1
+675,"Perished","Second","Watson, Mr. Ennis Hastings","male",33.5757575757576,0,0,"239856",15.75,"","S",0,"Mr",0,1
+436,"Survived","First","Carter, Miss. Lucile Polk","female",14,1,2,"113760",120,"B96 B98","S",1,"Miss",3,1
+628,"Survived","First","Longley, Miss. Gretchen Fiske","female",21,0,0,"13502",77.9583,"D9","S",1,"Miss",0,1
+866,"Survived","Second","Bystrom, Mrs. (Karolina)","female",42,0,0,"236852",13,"","S",1,"Mrs",0,1
+332,"Perished","First","Partner, Mr. Austen","male",45.5,0,0,"113043",28.5,"C124","S",0,"Mr",0,1
+678,"Survived","Third","Turja, Miss. Anna Sofia","female",18,0,0,"4138",9.8417,"","S",1,"Miss",0,1
+814,"Perished","Third","Andersson, Miss. Ebba Iris Alfrida","female",6,4,2,"347082",31.275,"","S",0,"Miss",6,1
+185,"Survived","Third","Kink-Heilmann, Miss. Luise Gretchen","female",4,0,2,"315153",22.025,"","S",1,"Miss",2,1
+566,"Perished","Third","Davies, Mr. Alfred J","male",24,2,0,"A/4 48871",24.15,"","S",0,"Mr",2,1
+109,"Perished","Third","Rekic, Mr. Tido","male",38,0,0,"349249",7.8958,"","S",0,"Mr",0,1
+232,"Perished","Third","Larsson, Mr. Bengt Edvin","male",29,0,0,"347067",7.775,"","S",0,"Mr",0,1
+334,"Perished","Third","Vander Planke, Mr. Leo Edmondus","male",16,2,0,"345764",18,"","S",0,"Mr",2,1
+12,"Survived","First","Bonnell, Miss. Elizabeth","female",58,0,0,"113783",26.55,"C103","S",1,"Miss",0,1
+889,"Perished","Third","Johnston, Miss. Catherine Helen ""Carrie""","female",6.44791666666667,1,2,"W./C. 6607",23.45,"","S",0,"Miss",3,1
+750,"Perished","Third","Connaghton, Mr. Michael","male",31,0,0,"335097",7.75,"","Q",0,"Mr",0,1
+294,"Perished","Third","Haas, Miss. Aloisia","female",24,0,0,"349236",8.85,"","S",0,"Miss",0,1
+415,"Survived","Third","Sundman, Mr. Johan Julian","male",44,0,0,"STON/O 2. 3101269",7.925,"","S",1,"Mr",0,1
+516,"Perished","First","Walker, Mr. William Anderson","male",47,0,0,"36967",34.0208,"D46","S",0,"Mr",0,1
+424,"Perished","Third","Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)","female",28,1,1,"347080",14.4,"","S",0,"Mrs",2,1
+160,"Perished","Third","Sage, Master. Thomas Henry","male",18.94,8,2,"CA. 2343",69.55,"","S",0,"Master",10,1
+709,"Survived","First","Cleaver, Miss. Alice","female",22,0,0,"113781",151.55,"","S",1,"Miss",0,1
+572,"Survived","First","Appleton, Mrs. Edward Dale (Charlotte Lamson)","female",53,2,0,"11769",51.4792,"C101","S",1,"Mrs",2,1
+679,"Perished","Third","Goodwin, Mrs. Frederick (Augusta Tyler)","female",43,1,6,"CA 2144",46.9,"","S",0,"Mrs",7,1
+93,"Perished","First","Chaffee, Mr. Herbert Fuller","male",46,1,0,"W.E.P. 5734",61.175,"E31","S",0,"Mr",1,1
+617,"Perished","Third","Danbom, Mr. Ernst Gilbert","male",34,1,1,"347080",14.4,"","S",0,"Mr",2,1
+350,"Perished","Third","Dimic, Mr. Jovan","male",42,0,0,"315088",8.6625,"","S",0,"Mr",0,1
+698,"Survived","Third","Mullens, Miss. Katherine ""Katie""","female",21.4772727272727,0,0,"35852",7.7333,"","Q",1,"Miss",0,1
+550,"Survived","Second","Davies, Master. John Morgan Jr","male",8,1,1,"C.A. 33112",36.75,"","S",1,"Master",2,1
+664,"Perished","Third","Coleff, Mr. Peju","male",36,0,0,"349210",7.4958,"","S",0,"Mr",0,1
+469,"Perished","Third","Scanlan, Mr. James","male",29.3282442748092,0,0,"36209",7.725,"","Q",0,"Mr",0,1
+449,"Survived","Third","Baclini, Miss. Marie Catherine","female",5,2,1,"2666",19.2583,"","C",1,"Miss",3,1
+668,"Perished","Third","Rommetvedt, Mr. Knud Paust","male",29.3282442748092,0,0,"312993",7.775,"","S",0,"Mr",0,1
+20,"Survived","Third","Masselmani, Mrs. Fatima","female",29.3282442748092,0,0,"2649",7.225,"","C",1,"Mrs",0,1
+403,"Perished","Third","Jussila, Miss. Mari Aina","female",21,1,0,"4137",9.825,"","S",0,"Miss",1,1
+852,"Perished","Third","Svensson, Mr. Johan","male",74,0,0,"347060",7.775,"","S",0,"Mr",0,1
+583,"Perished","Second","Downton, Mr. William James","male",54,0,0,"28403",26,"","S",0,"Mr",0,1
+402,"Perished","Third","Adams, Mr. John","male",26,0,0,"341826",8.05,"","S",0,"Mr",0,1
+723,"Perished","Second","Gillespie, Mr. William Henry","male",34,0,0,"12233",13,"","S",0,"Mr",0,1
+368,"Survived","Third","Moussa, Mrs. (Mantoura Boulos)","female",29.3282442748092,0,0,"2626",7.2292,"","C",1,"Mrs",0,1
+205,"Survived","Third","Cohen, Mr. Gurshon ""Gus""","male",18,0,0,"A/5 3540",8.05,"","S",1,"Mr",0,1
+60,"Perished","Third","Goodwin, Master. William Frederick","male",11,5,2,"CA 2144",46.9,"","S",0,"Master",7,1
+84,"Perished","First","Carrau, Mr. Francisco M","male",28,0,0,"113059",47.1,"","S",0,"Mr",0,1
+264,"Perished","First","Harrison, Mr. William","male",40,0,0,"112059",61.175,"B94","S",0,"Mr",0,1
+433,"Survived","Second","Louch, Mrs. Charles Alexander (Alice Adelaide Slow)","female",42,1,0,"SC/AH 3085",26,"","S",1,"Mrs",1,1
+551,"Survived","First","Thayer, Mr. John Borland Jr","male",17,0,2,"17421",110.8833,"C70","C",1,"Mr",2,1
+339,"Survived","Third","Dahl, Mr. Karl Edwart","male",45,0,0,"7598",8.05,"","S",1,"Mr",0,1
+758,"Perished","Second","Bailey, Mr. Percy Andrew","male",18,0,0,"29108",11.5,"","S",0,"Mr",0,1
+244,"Perished","Third","Maenpaa, Mr. Matti Alexanteri","male",22,0,0,"STON/O 2. 3101275",7.125,"","S",0,"Mr",0,1
+381,"Survived","First","Bidois, Miss. Rosalie","female",42,0,0,"PC 17757",227.525,"","C",1,"Miss",0,1
+275,"Survived","Third","Healy, Miss. Hanora ""Nora""","female",21.4772727272727,0,0,"370375",7.75,"","Q",1,"Miss",0,1
+538,"Survived","First","LeRoy, Miss. Bertha","female",30,0,0,"PC 17761",106.425,"","C",1,"Miss",0,1
+213,"Perished","Third","Perkin, Mr. John Henry","male",22,0,0,"A/5 21174",7.25,"","S",0,"Mr",0,1
+395,"Survived","Third","Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)","female",24,0,2,"PP 9549",16.7,"G6","S",1,"Mrs",2,1
+631,"Survived","First","Barkworth, Mr. Algernon Henry Wilson","male",80,0,0,"27042",30,"A23","S",1,"Mr",0,1
+70,"Perished","Third","Kink, Mr. Vincenz","male",26,2,0,"315151",8.6625,"","S",0,"Mr",2,1
+719,"Perished","Third","McEvoy, Mr. Michael","male",29.3282442748092,0,0,"36568",15.5,"","Q",0,"Mr",0,1
+279,"Perished","Third","Rice, Master. Eric","male",7,4,1,"382652",29.125,"","Q",0,"Master",5,1
+688,"Perished","Third","Dakic, Mr. Branko","male",19,0,0,"349228",10.1708,"","S",0,"Mr",0,1
+284,"Survived","Third","Dorking, Mr. Edward Arthur","male",19,0,0,"A/5. 10482",8.05,"","S",1,"Mr",0,1
+273,"Survived","Second","Mellinger, Mrs. (Elizabeth Anne Maidment)","female",41,0,1,"250644",19.5,"","S",1,"Mrs",1,1
+389,"Perished","Third","Sadlier, Mr. Matthew","male",29.3282442748092,0,0,"367655",7.7292,"","Q",0,"Mr",0,1
+728,"Survived","Third","Mannion, Miss. Margareth","female",21.4772727272727,0,0,"36866",7.7375,"","Q",1,"Miss",0,1
+704,"Perished","Third","Gallagher, Mr. Martin","male",25,0,0,"36864",7.7417,"","Q",0,"Mr",0,1
+318,"Perished","Second","Moraweck, Dr. Ernest","male",54,0,0,"29011",14,"","S",0,"Dr",0,1
+632,"Perished","Third","Lundahl, Mr. Johan Svensson","male",51,0,0,"347743",7.0542,"","S",0,"Mr",0,1
+780,"Survived","First","Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)","female",43,0,1,"24160",211.3375,"B3","S",1,"Mrs",1,1
+353,"Perished","Third","Elias, Mr. Tannous","male",15,1,1,"2695",7.2292,"","C",0,"Mr",2,1
+577,"Survived","Second","Garside, Miss. Ethel","female",34,0,0,"243880",13,"","S",1,"Miss",0,1
+324,"Survived","Second","Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)","female",22,1,1,"248738",29,"","S",1,"Mrs",2,1
+263,"Perished","First","Taussig, Mr. Emil","male",52,1,1,"110413",79.65,"E67","S",0,"Mr",2,1
+611,"Perished","Third","Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)","female",39,1,5,"347082",31.275,"","S",0,"Mrs",6,1
+164,"Perished","Third","Calic, Mr. Jovo","male",17,0,0,"315093",8.6625,"","S",0,"Mr",0,1
+855,"Perished","Second","Carter, Mrs. Ernest Courtenay (Lilian Hughes)","female",44,1,0,"244252",26,"","S",0,"Mrs",1,1
+98,"Survived","First","Greenfield, Mr. William Bertram","male",23,0,1,"PC 17759",63.3583,"D10 D12","C",1,"Mr",1,1
+197,"Perished","Third","Mernagh, Mr. Robert","male",29.3282442748092,0,0,"368703",7.75,"","Q",0,"Mr",0,1
+115,"Perished","Third","Attalah, Miss. Malake","female",17,0,0,"2627",14.4583,"","C",0,"Miss",0,1
+192,"Perished","Second","Carbines, Mr. William","male",19,0,0,"28424",13,"","S",0,"Mr",0,1
+48,"Survived","Third","O'Driscoll, Miss. Bridget","female",21.4772727272727,0,0,"14311",7.75,"","Q",1,"Miss",0,1
+513,"Survived","First","McGough, Mr. James Robert","male",36,0,0,"PC 17473",26.2875,"E25","S",1,"Mr",0,1
+699,"Perished","First","Thayer, Mr. John Borland","male",49,1,1,"17421",110.8833,"C68","C",0,"Mr",2,1
+621,"Perished","Third","Yasbeck, Mr. Antoni","male",27,1,0,"2659",14.4542,"","C",0,"Mr",1,1
+634,"Perished","First","Parr, Mr. William Henry Marsh","male",42.0259259259259,0,0,"112052",61.175,"","S",0,"Mr",0,1
+362,"Perished","Second","del Carlo, Mr. Sebastiano","male",29,1,0,"SC/PARIS 2167",27.7208,"","C",0,"Mr",1,1
+326,"Survived","First","Young, Miss. Marie Grice","female",36,0,0,"PC 17760",135.6333,"C32","C",1,"Miss",0,1
+643,"Perished","Third","Skoog, Miss. Margit Elizabeth","female",2,3,2,"347088",27.9,"","S",0,"Miss",5,1
+479,"Perished","Third","Karlsson, Mr. Nils August","male",22,0,0,"350060",7.5208,"","S",0,"Mr",0,1
+518,"Perished","Third","Ryan, Mr. Patrick","male",29.3282442748092,0,0,"371110",24.15,"","Q",0,"Mr",0,1
+820,"Perished","Third","Skoog, Master. Karl Thorsten","male",10,3,2,"347088",27.9,"","S",0,"Master",5,1
+825,"Perished","Third","Panula, Master. Urho Abraham","male",2,4,1,"3101295",39.6875,"","S",0,"Master",5,1
+782,"Survived","First","Dick, Mrs. Albert Adrian (Vera Gillespie)","female",17,1,0,"17474",57,"B20","S",1,"Mrs",1,1
+498,"Perished","Third","Shellard, Mr. Frederick William","male",29.3282442748092,0,0,"C.A. 6212",15.1,"","S",0,"Mr",0,1
+168,"Perished","Third","Skoog, Mrs. William (Anna Bernhardina Karlsson)","female",45,1,4,"347088",27.9,"","S",0,"Mrs",5,1
+102,"Perished","Third","Petroff, Mr. Pastcho (""Pentcho"")","male",29.3282442748092,0,0,"349215",7.8958,"","S",0,"Mr",0,1
+375,"Perished","Third","Palsson, Miss. Stina Viola","female",3,3,1,"349909",21.075,"","S",0,"Miss",4,1
+839,"Survived","Third","Chip, Mr. Chang","male",32,0,0,"1601",56.4958,"","S",1,"Mr",0,1
+468,"Perished","First","Smart, Mr. John Montgomery","male",56,0,0,"113792",26.55,"","S",0,"Mr",0,1
+762,"Perished","Third","Nirva, Mr. Iisakki Antino Aijo","male",41,0,0,"SOTON/O2 3101272",7.125,"","S",0,"Mr",0,1
+571,"Survived","Second","Harris, Mr. George","male",62,0,0,"S.W./PP 752",10.5,"","S",1,"Mr",0,1
+278,"Perished","Second","Parkes, Mr. Francis ""Frank""","male",33.5757575757576,0,0,"239853",15.75,"","S",0,"Mr",0,1
+336,"Perished","Third","Denkoff, Mr. Mitto","male",29.3282442748092,0,0,"349225",7.8958,"","S",0,"Mr",0,1
+116,"Perished","Third","Pekoniemi, Mr. Edvard","male",21,0,0,"STON/O 2. 3101294",7.925,"","S",0,"Mr",0,1
+11,"Survived","Third","Sandstrom, Miss. Marguerite Rut","female",4,1,1,"PP 9549",16.7,"G6","S",1,"Miss",2,1
+554,"Survived","Third","Leeni, Mr. Fahim (""Philip Zenni"")","male",22,0,0,"2620",7.225,"","C",1,"Mr",0,1
+80,"Survived","Third","Dowdell, Miss. Elizabeth","female",30,0,0,"364516",12.475,"","S",1,"Miss",0,1
+345,"Perished","Second","Fox, Mr. Stanley Hubert","male",36,0,0,"229236",13,"","S",0,"Mr",0,1
+494,"Perished","First","Artagaveytia, Mr. Ramon","male",71,0,0,"PC 17609",49.5042,"","C",0,"Mr",0,1
+764,"Survived","First","Carter, Mrs. William Ernest (Lucile Polk)","female",36,1,2,"113760",120,"B96 B98","S",1,"Mrs",3,1
+382,"Survived","Third","Nakid, Miss. Maria (""Mary"")","female",1,0,2,"2653",15.7417,"","C",1,"Miss",2,1
+372,"Perished","Third","Wiklund, Mr. Jakob Alfred","male",18,1,0,"3101267",6.4958,"","S",0,"Mr",1,1
+134,"Survived","Second","Weisz, Mrs. Leopold (Mathilde Francoise Pede)","female",29,1,0,"228414",26,"","S",1,"Mrs",1,1
+579,"Perished","Third","Caram, Mrs. Joseph (Maria Elias)","female",29.3282442748092,1,0,"2689",14.4583,"","C",0,"Mrs",1,1
+348,"Survived","Third","Davison, Mrs. Thomas Henry (Mary E Finck)","female",29.3282442748092,1,0,"386525",16.1,"","S",1,"Mrs",1,1
+391,"Survived","First","Carter, Mr. William Ernest","male",36,1,2,"113760",120,"B96 B98","S",1,"Mr",3,1
+159,"Perished","Third","Smiljanic, Mr. Mile","male",29.3282442748092,0,0,"315037",8.6625,"","S",0,"Mr",0,1
+175,"Perished","First","Smith, Mr. James Clinch","male",56,0,0,"17764",30.6958,"A7","C",0,"Mr",0,1
+454,"Survived","First","Goldenberg, Mr. Samuel L","male",49,1,0,"17453",89.1042,"C92","C",1,"Mr",1,1
+437,"Perished","Third","Ford, Miss. Doolina Margaret ""Daisy""","female",21,2,2,"W./C. 6608",34.375,"","S",0,"Miss",4,1
+59,"Survived","Second","West, Miss. Constance Mirium","female",5,1,2,"C.A. 34651",27.75,"","S",1,"Miss",3,1
+27,"Perished","Third","Emir, Mr. Farred Chehab","male",29.3282442748092,0,0,"2631",7.225,"","C",0,"Mr",0,1
+487,"Survived","First","Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)","female",35,1,0,"19943",90,"C93","S",1,"Mrs",1,1
+703,"Perished","Third","Barbara, Miss. Saiide","female",18,0,1,"2691",14.4542,"","C",0,"Miss",1,1
+452,"Perished","Third","Hagland, Mr. Ingvald Olai Olsen","male",29.3282442748092,1,0,"65303",19.9667,"","S",0,"Mr",1,1
+423,"Perished","Third","Zimmerman, Mr. Leo","male",29,0,0,"315082",7.875,"","S",0,"Mr",0,1
+397,"Perished","Third","Olsson, Miss. Elina","female",31,0,0,"350407",7.8542,"","S",0,"Miss",0,1
+741,"Survived","First","Hawksford, Mr. Walter James","male",42.0259259259259,0,0,"16988",30,"D45","S",1,"Mr",0,1
+769,"Perished","Third","Moran, Mr. Daniel J","male",29.3282442748092,1,0,"371110",24.15,"","Q",0,"Mr",1,1
+798,"Survived","Third","Osman, Mrs. Mara","female",31,0,0,"349244",8.6833,"","S",1,"Mrs",0,1
+451,"Perished","Second","West, Mr. Edwy Arthur","male",36,1,2,"C.A. 34651",27.75,"","S",0,"Mr",3,1
+886,"Perished","Third","Rice, Mrs. William (Margaret Norton)","female",39,0,5,"382652",29.125,"","Q",0,"Mrs",5,1
+193,"Survived","Third","Andersen-Jensen, Miss. Carla Christine Nielsine","female",19,1,0,"350046",7.8542,"","S",1,"Miss",1,1
+545,"Perished","First","Douglas, Mr. Walter Donald","male",50,1,0,"PC 17761",106.425,"C86","C",0,"Mr",1,1
+338,"Survived","First","Burns, Miss. Elizabeth Margaret","female",41,0,0,"16966",134.5,"E40","C",1,"Miss",0,1
+131,"Perished","Third","Drazenoic, Mr. Jozef","male",33,0,0,"349241",7.8958,"","C",0,"Mr",0,1
+882,"Perished","Third","Markun, Mr. Johann","male",33,0,0,"349257",7.8958,"","S",0,"Mr",0,1
+78,"Perished","Third","Moutal, Mr. Rahamin Haim","male",29.3282442748092,0,0,"374746",8.05,"","S",0,"Mr",0,1
+641,"Perished","Third","Jensen, Mr. Hans Peder","male",20,0,0,"350050",7.8542,"","S",0,"Mr",0,1
+455,"Perished","Third","Peduzzi, Mr. Joseph","male",29.3282442748092,0,0,"A/5 2817",8.05,"","S",0,"Mr",0,1
+412,"Perished","Third","Hart, Mr. Henry","male",29.3282442748092,0,0,"394140",6.8583,"","Q",0,"Mr",0,1
+243,"Perished","Second","Coleridge, Mr. Reginald Charles","male",29,0,0,"W./C. 14263",10.5,"","S",0,"Mr",0,1
+865,"Perished","Second","Gill, Mr. John William","male",24,0,0,"233866",13,"","S",0,"Mr",0,1
+369,"Survived","Third","Jermyn, Miss. Annie","female",21.4772727272727,0,0,"14313",7.75,"","Q",1,"Miss",0,1
+133,"Perished","Third","Robins, Mrs. Alexander A (Grace Charity Laury)","female",47,1,0,"A/5. 3337",14.5,"","S",0,"Mrs",1,1
+816,"Perished","First","Fry, Mr. Richard","male",42.0259259259259,0,0,"112058",61.175,"B102","S",0,"Mr",0,1
+56,"Survived","First","Woolner, Mr. Hugh","male",42.0259259259259,0,0,"19947",35.5,"C52","S",1,"Mr",0,1
+204,"Perished","Third","Youseff, Mr. Gerious","male",45.5,0,0,"2628",7.225,"","C",0,"Mr",0,1
+879,"Perished","Third","Laleff, Mr. Kristo","male",29.3282442748092,0,0,"349217",7.8958,"","S",0,"Mr",0,1
+208,"Survived","Third","Albimona, Mr. Nassef Cassem","male",26,0,0,"2699",18.7875,"","C",1,"Mr",0,1
+653,"Perished","Third","Kalvik, Mr. Johannes Halvorsen","male",21,0,0,"8475",8.4333,"","S",0,"Mr",0,1
+325,"Perished","Third","Sage, Mr. George John Jr","male",29.3282442748092,8,2,"CA. 2343",69.55,"","S",0,"Mr",10,1
+568,"Perished","Third","Palsson, Mrs. Nils (Alma Cornelia Berglund)","female",29,0,4,"349909",21.075,"","S",0,"Mrs",4,1
+640,"Perished","Third","Thorneycroft, Mr. Percival","male",29.3282442748092,1,0,"376564",16.1,"","S",0,"Mr",1,1
+300,"Survived","First","Baxter, Mrs. James (Helene DeLaudeniere Chaput)","female",50,0,1,"PC 17558",247.5208,"B58 B60","C",1,"Mrs",1,1
+47,"Perished","Third","Lennon, Mr. Denis","male",29.3282442748092,1,0,"370371",15.5,"","Q",0,"Mr",1,1
+738,"Survived","First","Lesurer, Mr. Gustave J","male",35,0,0,"PC 17755",512.3292,"B101","C",1,"Mr",0,1
+523,"Perished","Third","Lahoud, Mr. Sarkis","male",29.3282442748092,0,0,"2624",7.225,"","C",0,"Mr",0,1
+829,"Survived","Third","McCormack, Mr. Thomas Joseph","male",29.3282442748092,0,0,"367228",7.75,"","Q",1,"Mr",0,1
+761,"Perished","Third","Garfirth, Mr. John","male",29.3282442748092,0,0,"358585",14.5,"","S",0,"Mr",0,1
+605,"Survived","First","Homer, Mr. Harry (""Mr E Haven"")","male",35,0,0,"111426",26.55,"","C",1,"Mr",0,1
+615,"Perished","Third","Brocklebank, Mr. William Alfred","male",35,0,0,"364512",8.05,"","S",0,"Mr",0,1
+281,"Perished","Third","Duane, Mr. Frank","male",65,0,0,"336439",7.75,"","Q",0,"Mr",0,1
+817,"Perished","Third","Heininen, Miss. Wendla Maria","female",23,0,0,"STON/O2. 3101290",7.925,"","S",0,"Miss",0,1
+752,"Survived","Third","Moor, Master. Meier","male",6,0,1,"392096",12.475,"E121","S",1,"Master",1,1
+461,"Survived","First","Anderson, Mr. Harry","male",48,0,0,"19952",26.55,"E12","S",1,"Mr",0,1
+529,"Perished","Third","Salonen, Mr. Johan Werner","male",39,0,0,"3101296",7.925,"","S",0,"Mr",0,1
+431,"Survived","First","Bjornstrom-Steffansson, Mr. Mauritz Hakan","male",28,0,0,"110564",26.55,"C52","S",1,"Mr",0,1
+792,"Perished","Second","Gaskell, Mr. Alfred","male",16,0,0,"239865",26,"","S",0,"Mr",0,1
+209,"Survived","Third","Carr, Miss. Helen ""Ellen""","female",16,0,0,"367231",7.75,"","Q",1,"Miss",0,1
+136,"Perished","Second","Richard, Mr. Emile","male",23,0,0,"SC/PARIS 2133",15.0458,"","C",0,"Mr",0,1
+874,"Perished","Third","Vander Cruyssen, Mr. Victor","male",47,0,0,"345765",9,"","S",0,"Mr",0,1
+356,"Perished","Third","Vanden Steen, Mr. Leo Peter","male",28,0,0,"345783",9.5,"","S",0,"Mr",0,1
+620,"Perished","Second","Gavey, Mr. Lawrence","male",26,0,0,"31028",10.5,"","S",0,"Mr",0,1
+767,"Perished","First","Brewe, Dr. Arthur Jackson","male",42.0259259259259,0,0,"112379",39.6,"","C",0,"Dr",0,1
+534,"Survived","Third","Peter, Mrs. Catherine (Catherine Rizk)","female",29.3282442748092,0,2,"2668",22.3583,"","C",1,"Mrs",2,1
+510,"Survived","Third","Lang, Mr. Fang","male",26,0,0,"1601",56.4958,"","S",1,"Mr",0,1
+663,"Perished","First","Colley, Mr. Edward Pomeroy","male",47,0,0,"5727",25.5875,"E58","S",0,"Mr",0,1
+384,"Survived","First","Holverson, Mrs. Alexander Oskar (Mary Aline Towner)","female",35,1,0,"113789",52,"","S",1,"Mrs",1,1
+499,"Perished","First","Allison, Mrs. Hudson J C (Bessie Waldo Daniels)","female",25,1,2,"113781",151.55,"C22 C26","S",0,"Mrs",3,1
+272,"Survived","Third","Tornquist, Mr. William Henry","male",25,0,0,"LINE",8.05,"","S",1,"Mr",0,1
+71,"Perished","Second","Jenkin, Mr. Stephen Curnow","male",32,0,0,"C.A. 33111",10.5,"","S",0,"Mr",0,1
+647,"Perished","Third","Cor, Mr. Liudevit","male",19,0,0,"349231",7.8958,"","S",0,"Mr",0,1
+198,"Perished","Third","Olsen, Mr. Karl Siegwart Andreas","male",42,0,1,"4579",8.4042,"","S",0,"Mr",1,1
+411,"Perished","Third","Sdycoff, Mr. Todor","male",29.3282442748092,0,0,"349222",7.8958,"","S",0,"Mr",0,1
+77,"Perished","Third","Staneff, Mr. Ivan","male",29.3282442748092,0,0,"349208",7.8958,"","S",0,"Mr",0,1
+841,"Perished","Third","Alhomaki, Mr. Ilmari Rudolf","male",20,0,0,"SOTON/O2 3101287",7.925,"","S",0,"Mr",0,1
+221,"Survived","Third","Sunderland, Mr. Victor Francis","male",16,0,0,"SOTON/OQ 392089",8.05,"","S",1,"Mr",0,1
+541,"Survived","First","Crosby, Miss. Harriet R","female",36,0,2,"WE/P 5735",71,"B22","S",1,"Miss",2,1
+869,"Perished","Third","van Melkebeke, Mr. Philemon","male",29.3282442748092,0,0,"345777",9.5,"","S",0,"Mr",0,1
+151,"Perished","Second","Bateman, Rev. Robert James","male",51,0,0,"S.O.P. 1166",12.525,"","S",0,"Rev",0,1
+707,"Survived","Second","Kelly, Mrs. Florence ""Fannie""","female",45,0,0,"223596",13.5,"","S",1,"Mrs",0,1
+690,"Survived","First","Madill, Miss. Georgette Alexandra","female",15,0,1,"24160",211.3375,"B5","S",1,"Miss",1,1
+125,"Perished","First","White, Mr. Percival Wayland","male",54,0,1,"35281",77.2875,"D26","S",0,"Mr",1,1
+819,"Perished","Third","Holm, Mr. John Fredrik Alexander","male",43,0,0,"C 7075",6.45,"","S",0,"Mr",0,1
+385,"Perished","Third","Plotcharsky, Mr. Vasil","male",29.3282442748092,0,0,"349227",7.8958,"","S",0,"Mr",0,1
+89,"Survived","First","Fortune, Miss. Mabel Helen","female",23,3,2,"19950",263,"C23 C25 C27","S",1,"Miss",5,1
+811,"Perished","Third","Alexander, Mr. William","male",26,0,0,"3474",7.8875,"","S",0,"Mr",0,1
+489,"Perished","Third","Somerton, Mr. Francis William","male",30,0,0,"A.5. 18509",8.05,"","S",0,"Mr",0,1
+654,"Survived","Third","O'Leary, Miss. Hanora ""Norah""","female",21.4772727272727,0,0,"330919",7.8292,"","Q",1,"Miss",0,1
+68,"Perished","Third","Crease, Mr. Ernest James","male",19,0,0,"S.P. 3464",8.1583,"","S",0,"Mr",0,1
+790,"Perished","First","Guggenheim, Mr. Benjamin","male",46,0,0,"PC 17593",79.2,"B82 B84","C",0,"Mr",0,1
+642,"Survived","First","Sagesser, Mlle. Emma","female",24,0,0,"PC 17477",69.3,"B35","C",1,"Mlle",0,1
+774,"Perished","Third","Elias, Mr. Dibo","male",29.3282442748092,0,0,"2674",7.225,"","C",0,"Mr",0,1
+710,"Survived","Third","Moubarek, Master. Halim Gonios (""William George"")","male",6.44791666666667,1,1,"2661",15.2458,"","C",1,"Master",2,1
+438,"Survived","Second","Richards, Mrs. Sidney (Emily Hocking)","female",24,2,3,"29106",18.75,"","S",1,"Mrs",5,1
+677,"Perished","Third","Sawyer, Mr. Frederick Charles","male",24.5,0,0,"342826",8.05,"","S",0,"Mr",0,1
+715,"Perished","Second","Greenberg, Mr. Samuel","male",52,0,0,"250647",13,"","S",0,"Mr",0,1
+229,"Perished","Second","Fahlstrom, Mr. Arne Jonas","male",18,0,0,"236171",13,"","S",0,"Mr",0,1
+176,"Perished","Third","Klasen, Mr. Klas Albin","male",18,1,1,"350404",7.8542,"","S",0,"Mr",2,1
+111,"Perished","First","Porter, Mr. Walter Chamberlain","male",47,0,0,"110465",52,"C110","S",0,"Mr",0,1
+216,"Survived","First","Newell, Miss. Madeleine","female",31,1,0,"35273",113.275,"D36","C",1,"Miss",1,1
+341,"Survived","Second","Navratil, Master. Edmond Roger","male",2,1,1,"230080",26,"F2","S",1,"Master",2,1
+616,"Survived","Second","Herman, Miss. Alice","female",24,1,2,"220845",65,"","S",1,"Miss",3,1
+340,"Perished","First","Blackwell, Mr. Stephen Weart","male",45,0,0,"113784",35.5,"T","S",0,"Mr",0,1
+203,"Perished","Third","Johanson, Mr. Jakob Alfred","male",34,0,0,"3101264",6.4958,"","S",0,"Mr",0,1
+31,"Perished","First","Uruchurtu, Don. Manuel E","male",40,0,0,"PC 17601",27.7208,"","C",0,"Sir",0,1
+277,"Perished","Third","Lindblom, Miss. Augusta Charlotta","female",45,0,0,"347073",7.75,"","S",0,"Miss",0,1
+565,"Perished","Third","Meanwell, Miss. (Marion Ogden)","female",21.4772727272727,0,0,"SOTON/O.Q. 392087",8.05,"","S",0,"Miss",0,1
+230,"Perished","Third","Lefebre, Miss. Mathilde","female",6.44791666666667,3,1,"4133",25.4667,"","S",0,"Miss",4,1
+87,"Perished","Third","Ford, Mr. William Neal","male",16,1,3,"W./C. 6608",34.375,"","S",0,"Mr",4,1
+247,"Perished","Third","Lindahl, Miss. Agda Thorilda Viktoria","female",25,0,0,"347071",7.775,"","S",0,"Miss",0,1
+860,"Perished","Third","Razi, Mr. Raihed","male",29.3282442748092,0,0,"2629",7.2292,"","C",0,"Mr",0,1
+256,"Survived","Third","Touma, Mrs. Darwis (Hanne Youssef Razi)","female",29,0,2,"2650",15.2458,"","C",1,"Mrs",2,1
+755,"Survived","Second","Herman, Mrs. Samuel (Jane Laver)","female",48,1,2,"220845",65,"","S",1,"Mrs",3,1
+749,"Perished","First","Marvin, Mr. Daniel Warner","male",19,1,0,"113773",53.1,"D30","S",0,"Mr",1,1
+363,"Perished","Third","Barbara, Mrs. (Catherine David)","female",45,0,1,"2691",14.4542,"","C",0,"Mrs",1,1
+717,"Survived","First","Endres, Miss. Caroline Louise","female",38,0,0,"PC 17757",227.525,"C45","C",1,"Miss",0,1
+295,"Perished","Third","Mineff, Mr. Ivan","male",24,0,0,"349233",7.8958,"","S",0,"Mr",0,1
+200,"Perished","Second","Yrois, Miss. Henriette (""Mrs Harbeck"")","female",24,0,0,"248747",13,"","S",0,"Miss",0,1
+376,"Survived","First","Meyer, Mrs. Edgar Joseph (Leila Saks)","female",42.0259259259259,1,0,"PC 17604",82.1708,"","C",1,"Mrs",1,1
+590,"Perished","Third","Murdlin, Mr. Joseph","male",29.3282442748092,0,0,"A./5. 3235",8.05,"","S",0,"Mr",0,1
+853,"Perished","Third","Boulos, Miss. Nourelain","female",9,1,1,"2678",15.2458,"","C",0,"Miss",2,1
+269,"Survived","First","Graham, Mrs. William Thompson (Edith Junkins)","female",58,0,1,"PC 17582",153.4625,"C125","S",1,"Mrs",1,1
+137,"Survived","First","Newsom, Miss. Helen Monypeny","female",19,0,2,"11752",26.2833,"D47","S",1,"Miss",2,1
+662,"Perished","Third","Badt, Mr. Mohamed","male",40,0,0,"2623",7.225,"","C",0,"Mr",0,1
+86,"Survived","Third","Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)","female",33,3,0,"3101278",15.85,"","S",1,"Mrs",3,1
+296,"Perished","First","Lewy, Mr. Ervin G","male",42.0259259259259,0,0,"PC 17612",27.7208,"","C",0,"Mr",0,1
+821,"Survived","First","Hays, Mrs. Charles Melville (Clara Jennings Gregg)","female",52,1,1,"12749",93.5,"B69","S",1,"Mrs",2,1
+488,"Perished","First","Kent, Mr. Edward Austin","male",58,0,0,"11771",29.7,"B37","C",0,"Mr",0,1
+597,"Survived","Second","Leitch, Miss. Jessie Wills","female",32.656862745098,0,0,"248727",33,"","S",1,"Miss",0,1
+301,"Survived","Third","Kelly, Miss. Anna Katherine ""Annie Kate""","female",21.4772727272727,0,0,"9234",7.75,"","Q",1,"Miss",0,1
+684,"Perished","Third","Goodwin, Mr. Charles Edward","male",14,5,2,"CA 2144",46.9,"","S",0,"Mr",7,1
+309,"Perished","Second","Abelson, Mr. Samuel","male",30,1,0,"P/PP 3381",24,"","C",0,"Mr",1,1
+822,"Survived","Third","Lulic, Mr. Nikola","male",27,0,0,"315098",8.6625,"","S",1,"Mr",0,1
+158,"Perished","Third","Corn, Mr. Harry","male",30,0,0,"SOTON/OQ 392090",8.05,"","S",0,"Mr",0,1
+316,"Survived","Third","Nilsson, Miss. Helmina Josefina","female",26,0,0,"347470",7.8542,"","S",1,"Miss",0,1
+236,"Perished","Third","Harknett, Miss. Alice Phoebe","female",21.4772727272727,0,0,"W./C. 6609",7.55,"","S",0,"Miss",0,1
+648,"Survived","First","Simonius-Blumer, Col. Oberst Alfons","male",56,0,0,"13213",35.5,"A26","C",1,"Col",0,1
+863,"Survived","First","Swift, Mrs. Frederick Joel (Margaret Welles Barron)","female",48,0,0,"17466",25.9292,"D17","S",1,"Mrs",0,1
+650,"Survived","Third","Stanley, Miss. Amy Zillah Elsie","female",23,0,0,"CA. 2314",7.55,"","S",1,"Miss",0,1
+682,"Survived","First","Hassab, Mr. Hammad","male",27,0,0,"PC 17572",76.7292,"D49","C",1,"Mr",0,1
+771,"Perished","Third","Lievens, Mr. Rene Aime","male",24,0,0,"345781",9.5,"","S",0,"Mr",0,1
+440,"Perished","Second","Kvillner, Mr. Johan Henrik Johannesson","male",31,0,0,"C.A. 18723",10.5,"","S",0,"Mr",0,1
+104,"Perished","Third","Johansson, Mr. Gustaf Joel","male",33,0,0,"7540",8.6542,"","S",0,"Mr",0,1
+41,"Perished","Third","Ahlin, Mrs. Johan (Johanna Persdotter Larsson)","female",40,1,0,"7546",9.475,"","S",0,"Mrs",1,1
+471,"Perished","Third","Keefe, Mr. Arthur","male",29.3282442748092,0,0,"323592",7.25,"","S",0,"Mr",0,1
+386,"Perished","Second","Davies, Mr. Charles Henry","male",18,0,0,"S.O.C. 14879",73.5,"","S",0,"Mr",0,1
+106,"Perished","Third","Mionoff, Mr. Stoytcho","male",28,0,0,"349207",7.8958,"","S",0,"Mr",0,1
+39,"Perished","Third","Vander Planke, Miss. Augusta Maria","female",18,2,0,"345764",18,"","S",0,"Miss",2,1
+854,"Survived","First","Lines, Miss. Mary Conover","female",16,0,1,"PC 17592",39.4,"D28","S",1,"Miss",1,1
+812,"Perished","Third","Lester, Mr. James","male",39,0,0,"A/4 48871",24.15,"","S",0,"Mr",0,1
+105,"Perished","Third","Gustafsson, Mr. Anders Vilhelm","male",37,2,0,"3101276",7.925,"","S",0,"Mr",2,1
+184,"Survived","Second","Becker, Master. Richard F","male",1,2,1,"230136",39,"F4","S",1,"Master",3,1
+119,"Perished","First","Baxter, Mr. Quigg Edmond","male",24,0,1,"PC 17558",247.5208,"B58 B60","C",0,"Mr",1,1
+795,"Perished","Third","Dantcheff, Mr. Ristiu","male",25,0,0,"349203",7.8958,"","S",0,"Mr",0,1
+112,"Perished","Third","Zabour, Miss. Hileni","female",14.5,1,0,"2665",14.4542,"","C",0,"Miss",1,1
+293,"Perished","Second","Levy, Mr. Rene Jacques","male",36,0,0,"SC/Paris 2163",12.875,"D","C",0,"Mr",0,1
+623,"Survived","Third","Nakid, Mr. Sahid","male",20,1,1,"2653",15.7417,"","C",1,"Mr",2,1
+17,"Perished","Third","Rice, Master. Eugene","male",2,4,1,"382652",29.125,"","Q",0,"Master",5,1
+322,"Perished","Third","Danoff, Mr. Yoto","male",27,0,0,"349219",7.8958,"","S",0,"Mr",0,1
+536,"Survived","Second","Hart, Miss. Eva Miriam","female",7,0,2,"F.C.C. 13529",26.25,"","S",1,"Miss",2,1
+227,"Survived","Second","Mellors, Mr. William John","male",19,0,0,"SW/PP 751",10.5,"","S",1,"Mr",0,1
+30,"Perished","Third","Todoroff, Mr. Lalio","male",29.3282442748092,0,0,"349216",7.8958,"","S",0,"Mr",0,1
+835,"Perished","Third","Allum, Mr. Owen George","male",18,0,0,"2223",8.3,"","S",0,"Mr",0,1
+195,"Survived","First","Brown, Mrs. James Joseph (Margaret Tobin)","female",44,0,0,"PC 17610",27.7208,"B4","C",1,"Mrs",0,1
+94,"Perished","Third","Dean, Mr. Bertram Frank","male",26,1,2,"C.A. 2315",20.575,"","S",0,"Mr",3,1
+773,"Perished","Second","Mack, Mrs. (Mary)","female",57,0,0,"S.O./P.P. 3",10.5,"E77","S",0,"Mrs",0,1
+705,"Perished","Third","Hansen, Mr. Henrik Juul","male",26,1,0,"350025",7.8542,"","S",0,"Mr",1,1
+856,"Survived","Third","Aks, Mrs. Sam (Leah Rosen)","female",18,0,1,"392091",9.35,"","S",1,"Mrs",1,1
+79,"Survived","Second","Caldwell, Master. Alden Gates","male",0.83,0,2,"248738",29,"","S",1,"Master",2,1
+587,"Perished","Second","Jarvis, Mr. John Denzil","male",47,0,0,"237565",15,"","S",0,"Mr",0,1
+196,"Survived","First","Lurette, Miss. Elise","female",58,0,0,"PC 17569",146.5208,"B80","C",1,"Miss",0,1
+303,"Perished","Third","Johnson, Mr. William Cahoone Jr","male",19,0,0,"LINE",8.05,"","S",0,"Mr",0,1
+406,"Perished","Second","Gale, Mr. Shadrach","male",34,1,0,"28664",21,"","S",0,"Mr",1,1
+759,"Perished","Third","Theobald, Mr. Thomas Leonard","male",34,0,0,"363294",8.05,"","S",0,"Mr",0,1
+850,"Survived","First","Goldenberg, Mrs. Samuel L (Edwiga Grabowska)","female",42.0259259259259,1,0,"17453",89.1042,"C92","C",1,"Mrs",1,1
+606,"Perished","Third","Lindell, Mr. Edvard Bengtsson","male",36,1,0,"349910",15.55,"","S",0,"Mr",1,1
+849,"Perished","Second","Harper, Rev. John","male",28,0,1,"248727",33,"","S",0,"Rev",1,1
+398,"Perished","Second","McKane, Mr. Peter David","male",46,0,0,"28403",26,"","S",0,"Mr",0,1
+733,"Perished","Second","Knight, Mr. Robert J","male",33.5757575757576,0,0,"239855",15.75,"","S",0,"Mr",0,1
+290,"Survived","Third","Connolly, Miss. Kate","female",22,0,0,"370373",7.75,"","Q",1,"Miss",0,1
+271,"Perished","First","Cairns, Mr. Alexander","male",42.0259259259259,0,0,"113798",31,"","S",0,"Mr",0,1
+220,"Perished","Second","Harris, Mr. Walter","male",30,0,0,"W/C 14208",10.5,"","S",0,"Mr",0,1
+580,"Survived","Third","Jussila, Mr. Eiriik","male",32,0,0,"STON/O 2. 3101286",7.925,"","S",1,"Mr",0,1
+103,"Perished","First","White, Mr. Richard Frasar","male",21,0,1,"35281",77.2875,"D26","S",0,"Mr",1,1
+475,"Perished","Third","Strandberg, Miss. Ida Sofia","female",22,0,0,"7553",9.8375,"","S",0,"Miss",0,1
+40,"Survived","Third","Nicola-Yarred, Miss. Jamila","female",14,1,0,"2651",11.2417,"","C",1,"Miss",1,1
+233,"Perished","Second","Sjostedt, Mr. Ernst Adolf","male",59,0,0,"237442",13.5,"","S",0,"Mr",0,1
+82,"Survived","Third","Sheerlinck, Mr. Jan Baptist","male",29,0,0,"345779",9.5,"","S",1,"Mr",0,1
+613,"Survived","Third","Murphy, Miss. Margaret Jane","female",21.4772727272727,1,0,"367230",15.5,"","Q",1,"Miss",1,1
+757,"Perished","Third","Carlsson, Mr. August Sigfrid","male",28,0,0,"350042",7.7958,"","S",0,"Mr",0,1
+416,"Perished","Third","Meek, Mrs. Thomas (Annie Louise Rowley)","female",29.3282442748092,0,0,"343095",8.05,"","S",0,"Mrs",0,1
+154,"Perished","Third","van Billiard, Mr. Austin Blyler","male",40.5,0,2,"A/5. 851",14.5,"","S",0,"Mr",2,1
+285,"Perished","First","Smith, Mr. Richard William","male",42.0259259259259,0,0,"113056",26,"A19","S",0,"Mr",0,1
+891,"Perished","Third","Dooley, Mr. Patrick","male",32,0,0,"370376",7.75,"","Q",0,"Mr",0,1
+848,"Perished","Third","Markoff, Mr. Marin","male",35,0,0,"349213",7.8958,"","C",0,"Mr",0,1
+743,"Survived","First","Ryerson, Miss. Susan Parker ""Suzette""","female",21,2,2,"PC 17608",262.375,"B57 B59 B63 B66","C",1,"Miss",4,1
+357,"Survived","First","Bowerman, Miss. Elsie Edith","female",22,0,1,"113505",55,"E33","S",1,"Miss",1,1
+379,"Perished","Third","Betros, Mr. Tannous","male",20,0,0,"2648",4.0125,"","C",0,"Mr",0,1
+178,"Perished","First","Isham, Miss. Ann Elizabeth","female",50,0,0,"PC 17595",28.7125,"C49","C",0,"Miss",0,1
+231,"Survived","First","Harris, Mrs. Henry Birkhardt (Irene Wallach)","female",35,1,0,"36973",83.475,"C83","S",1,"Mrs",1,1
+661,"Survived","First","Frauenthal, Dr. Henry William","male",50,2,0,"PC 17611",133.65,"","S",1,"Dr",2,1
+484,"Survived","Third","Turkula, Mrs. (Hedwig)","female",63,0,0,"4134",9.5875,"","S",1,"Mrs",0,1
+539,"Perished","Third","Risien, Mr. Samuel Beard","male",29.3282442748092,0,0,"364498",14.5,"","S",0,"Mr",0,1
+459,"Survived","Second","Toomey, Miss. Ellen","female",50,0,0,"F.C.C. 13531",10.5,"","S",1,"Miss",0,1
+441,"Survived","Second","Hart, Mrs. Benjamin (Esther Ada Bloomfield)","female",45,1,1,"F.C.C. 13529",26.25,"","S",1,"Mrs",2,1
+689,"Perished","Third","Fischer, Mr. Eberhard Thelander","male",18,0,0,"350036",7.7958,"","S",0,"Mr",0,1
+428,"Survived","Second","Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")","female",19,0,0,"250655",26,"","S",1,"Miss",0,1
+553,"Perished","Third","O'Brien, Mr. Timothy","male",29.3282442748092,0,0,"330979",7.8292,"","Q",0,"Mr",0,1
+165,"Perished","Third","Panula, Master. Eino Viljami","male",1,4,1,"3101295",39.6875,"","S",0,"Master",5,1
+223,"Perished","Third","Green, Mr. George Henry","male",51,0,0,"21440",8.05,"","S",0,"Mr",0,1
+453,"Perished","First","Foreman, Mr. Benjamin Laventall","male",30,0,0,"113051",27.75,"C111","C",0,"Mr",0,1
+43,"Perished","Third","Kraeff, Mr. Theodor","male",29.3282442748092,0,0,"349253",7.8958,"","C",0,"Mr",0,1
+202,"Perished","Third","Sage, Mr. Frederick","male",29.3282442748092,8,2,"CA. 2343",69.55,"","S",0,"Mr",10,1
+246,"Perished","First","Minahan, Dr. William Edward","male",44,2,0,"19928",90,"C78","Q",0,"Dr",2,1
+659,"Perished","Second","Eitemiller, Mr. George Floyd","male",23,0,0,"29751",13,"","S",0,"Mr",0,1
+609,"Survived","Second","Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)","female",22,1,2,"SC/Paris 2123",41.5792,"","C",1,"Mrs",3,1
+535,"Perished","Third","Cacic, Miss. Marija","female",30,0,0,"315084",8.6625,"","S",0,"Miss",0,1
+746,"Perished","First","Crosby, Capt. Edward Gifford","male",70,1,1,"WE/P 5735",71,"B22","S",0,"Sir",2,1
+97,"Perished","First","Goldschmidt, Mr. George B","male",71,0,0,"PC 17754",34.6542,"A5","C",0,"Mr",0,1
+298,"Perished","First","Allison, Miss. Helen Loraine","female",2,1,2,"113781",151.55,"C22 C26","S",0,"Miss",3,1
+211,"Perished","Third","Ali, Mr. Ahmed","male",24,0,0,"SOTON/O.Q. 3101311",7.05,"","S",0,"Mr",0,1
+370,"Survived","First","Aubart, Mme. Leontine Pauline","female",24,0,0,"PC 17477",69.3,"B35","C",1,"Mlle",0,1
+147,"Survived","Third","Andersson, Mr. August Edvard (""Wennerstrom"")","male",27,0,0,"350043",7.7958,"","S",1,"Mr",0,1
+656,"Perished","Second","Hickman, Mr. Leonard Mark","male",24,2,0,"S.O.C. 14879",73.5,"","S",0,"Mr",2,1
+603,"Perished","First","Harrington, Mr. Charles H","male",42.0259259259259,0,0,"113796",42.4,"","S",0,"Mr",0,1
+201,"Perished","Third","Vande Walle, Mr. Nestor Cyriel","male",28,0,0,"345770",9.5,"","S",0,"Mr",0,1
+393,"Perished","Third","Gustafsson, Mr. Johan Birger","male",28,2,0,"3101277",7.925,"","S",0,"Mr",2,1
+807,"Perished","First","Andrews, Mr. Thomas Jr","male",39,0,0,"112050",61.175,"A36","S",0,"Mr",0,1
+35,"Perished","First","Meyer, Mr. Edgar Joseph","male",28,1,0,"PC 17604",82.1708,"","C",0,"Mr",1,1
+754,"Perished","Third","Jonkoff, Mr. Lalio","male",23,0,0,"349204",7.8958,"","S",0,"Mr",0,1
+225,"Survived","First","Hoyt, Mr. Frederick Maxfield","male",38,1,0,"19943",90,"C93","S",1,"Mr",1,1
+526,"Perished","Third","Farrell, Mr. James","male",40.5,0,0,"367232",7.75,"","Q",0,"Mr",0,1
+152,"Survived","First","Pears, Mrs. Thomas (Edith Wearne)","female",22,1,0,"113776",66.6,"C2","S",1,"Mrs",1,1
+557,"Survived","First","Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")","female",48,1,0,"11755",39.6,"A16","C",1,"Lady",1,1
+44,"Survived","Second","Laroche, Miss. Simonne Marie Anne Andree","female",3,1,2,"SC/Paris 2123",41.5792,"","C",1,"Miss",3,1
+472,"Perished","Third","Cacic, Mr. Luka","male",38,0,0,"315089",8.6625,"","S",0,"Mr",0,1
+251,"Perished","Third","Reed, Mr. James George","male",29.3282442748092,0,0,"362316",7.25,"","S",0,"Mr",0,1
+58,"Perished","Third","Novel, Mr. Mansouer","male",28.5,0,0,"2697",7.2292,"","C",0,"Mr",0,1
+177,"Perished","Third","Lefebre, Master. Henry Forbes","male",6.44791666666667,3,1,"4133",25.4667,"","S",0,"Master",4,1
+443,"Perished","Third","Petterson, Mr. Johan Emil","male",25,1,0,"347076",7.775,"","S",0,"Mr",1,1
+146,"Perished","Second","Nicholls, Mr. Joseph Charles","male",19,1,1,"C.A. 33112",36.75,"","S",0,"Mr",2,1
+636,"Survived","Second","Davis, Miss. Mary","female",28,0,0,"237668",13,"","S",1,"Miss",0,1
+626,"Perished","First","Sutton, Mr. Frederick","male",61,0,0,"36963",32.3208,"D50","S",0,"Mr",0,1
+38,"Perished","Third","Cann, Mr. Ernest Charles","male",21,0,0,"A./5. 2152",8.05,"","S",0,"Mr",0,1
+838,"Perished","Third","Sirota, Mr. Maurice","male",29.3282442748092,0,0,"392092",8.05,"","S",0,"Mr",0,1
+365,"Perished","Third","O'Brien, Mr. Thomas","male",29.3282442748092,1,0,"370365",15.5,"","Q",0,"Mr",1,1
+242,"Survived","Third","Murphy, Miss. Katherine ""Kate""","female",21.4772727272727,1,0,"367230",15.5,"","Q",1,"Miss",1,1
+228,"Perished","Third","Lovell, Mr. John Hall (""Henry"")","male",20.5,0,0,"A/5 21173",7.25,"","S",0,"Mr",0,1
+292,"Survived","First","Bishop, Mrs. Dickinson H (Helen Walton)","female",19,1,0,"11967",91.0792,"B49","C",1,"Mrs",1,1
+481,"Perished","Third","Goodwin, Master. Harold Victor","male",9,5,2,"CA 2144",46.9,"","S",0,"Master",7,1
+120,"Perished","Third","Andersson, Miss. Ellis Anna Maria","female",2,4,2,"347082",31.275,"","S",0,"Miss",6,1
+801,"Perished","Second","Ponesell, Mr. Martin","male",34,0,0,"250647",13,"","S",0,"Mr",0,1
+217,"Survived","Third","Honkanen, Miss. Eliina","female",27,0,0,"STON/O2. 3101283",7.925,"","S",1,"Miss",0,1
+172,"Perished","Third","Rice, Master. Arthur","male",4,4,1,"382652",29.125,"","Q",0,"Master",5,1
+444,"Survived","Second","Reynaldo, Ms. Encarnacion","female",28,0,0,"230434",13,"","S",1,"Ms",0,1
+91,"Perished","Third","Christmann, Mr. Emil","male",29,0,0,"343276",8.05,"","S",0,"Mr",0,1
+253,"Perished","First","Stead, Mr. William Thomas","male",62,0,0,"113514",26.55,"C87","S",0,"Mr",0,1
+586,"Survived","First","Taussig, Miss. Ruth","female",18,0,2,"110413",79.65,"E68","S",1,"Miss",2,1
+288,"Perished","Third","Naidenoff, Mr. Penko","male",22,0,0,"349206",7.8958,"","S",0,"Mr",0,1
+737,"Perished","Third","Ford, Mrs. Edward (Margaret Ann Watson)","female",48,1,3,"W./C. 6608",34.375,"","S",0,"Mrs",4,1
+497,"Survived","First","Eustis, Miss. Elizabeth Mussey","female",54,1,0,"36947",78.2667,"D20","C",1,"Miss",1,1
+118,"Perished","Second","Turpin, Mr. William John Robert","male",29,1,0,"11668",21,"","S",0,"Mr",1,1
+122,"Perished","Third","Moore, Mr. Leonard Charles","male",29.3282442748092,0,0,"A4. 54510",8.05,"","S",0,"Mr",0,1
+840,"Survived","First","Marechal, Mr. Pierre","male",42.0259259259259,0,0,"11774",29.7,"C47","C",1,"Mr",0,1
+419,"Perished","Second","Matthews, Mr. William John","male",30,0,0,"28228",13,"","S",0,"Mr",0,1
+57,"Survived","Second","Rugg, Miss. Emily","female",21,0,0,"C.A. 31026",10.5,"","S",1,"Miss",0,1
+483,"Perished","Third","Rouse, Mr. Richard Henry","male",50,0,0,"A/5 3594",8.05,"","S",0,"Mr",0,1
+74,"Perished","Third","Chronopoulos, Mr. Apostolos","male",26,1,0,"2680",14.4542,"","C",0,"Mr",1,1
+72,"Perished","Third","Goodwin, Miss. Lillian Amy","female",16,5,2,"CA 2144",46.9,"","S",0,"Miss",7,1
+714,"Perished","Third","Larsson, Mr. August Viktor","male",29,0,0,"7545",9.4833,"","S",0,"Mr",0,1
+252,"Perished","Third","Strom, Mrs. Wilhelm (Elna Matilda Persson)","female",29,1,1,"347054",10.4625,"G6","S",0,"Mrs",2,1
+694,"Perished","Third","Saad, Mr. Khalil","male",25,0,0,"2672",7.225,"","C",0,"Mr",0,1
+173,"Survived","Third","Johnson, Miss. Eleanor Ileen","female",1,1,1,"347742",11.1333,"","S",1,"Miss",2,1
+793,"Perished","Third","Sage, Miss. Stella Anna","female",18.94,8,2,"CA. 2343",69.55,"","S",0,"Miss",10,1
+576,"Perished","Third","Patchett, Mr. George","male",19,0,0,"358585",14.5,"","S",0,"Mr",0,1
+495,"Perished","Third","Stanley, Mr. Edward Roland","male",21,0,0,"A/4 45380",8.05,"","S",0,"Mr",0,1
+73,"Perished","Second","Hood, Mr. Ambrose Jr","male",21,0,0,"S.O.C. 14879",73.5,"","S",0,"Mr",0,1
+323,"Survived","Second","Slayter, Miss. Hilda Mary","female",30,0,0,"234818",12.35,"","Q",1,"Miss",0,1
+512,"Perished","Third","Webber, Mr. James","male",29.3282442748092,0,0,"SOTON/OQ 3101316",8.05,"","S",0,"Mr",0,1
+466,"Perished","Third","Goncalves, Mr. Manuel Estanslas","male",38,0,0,"SOTON/O.Q. 3101306",7.05,"","S",0,"Mr",0,1
+674,"Survived","Second","Wilhelms, Mr. Charles","male",31,0,0,"244270",13,"","S",1,"Mr",0,1
+564,"Perished","Third","Simmons, Mr. John","male",29.3282442748092,0,0,"SOTON/OQ 392082",8.05,"","S",0,"Mr",0,1
+351,"Perished","Third","Odahl, Mr. Nils Martin","male",23,0,0,"7267",9.225,"","S",0,"Mr",0,1
+180,"Perished","Third","Leonard, Mr. Lionel","male",36,0,0,"LINE",8.05,"","S",0,"Mr",0,1
+378,"Perished","First","Widener, Mr. Harry Elkins","male",27,0,2,"113503",211.5,"C82","C",0,"Mr",2,1
+6,"Perished","Third","Moran, Mr. James","male",29.3282442748092,0,0,"330877",8.4583,"","Q",0,"Mr",0,1
+870,"Survived","Third","Johnson, Master. Harold Theodor","male",4,1,1,"347742",11.1333,"","S",1,"Master",2,1
+477,"Perished","Second","Renouf, Mr. Peter Henry","male",34,1,0,"31027",21,"","S",0,"Mr",1,1
+514,"Survived","First","Rothschild, Mrs. Martin (Elizabeth L. Barrett)","female",54,1,0,"PC 17603",59.4,"","C",1,"Mrs",1,1
+358,"Perished","Second","Funk, Miss. Annie Clemmer","female",38,0,0,"237671",13,"","S",0,"Miss",0,1
+570,"Survived","Third","Jonsson, Mr. Carl","male",32,0,0,"350417",7.8542,"","S",1,"Mr",0,1
+777,"Perished","Third","Tobin, Mr. Roger","male",29.3282442748092,0,0,"383121",7.75,"F38","Q",0,"Mr",0,1
+607,"Perished","Third","Karaic, Mr. Milan","male",30,0,0,"349246",7.8958,"","S",0,"Mr",0,1
+235,"Perished","Second","Leyson, Mr. Robert William Norman","male",24,0,0,"C.A. 29566",10.5,"","S",0,"Mr",0,1
+527,"Survived","Second","Ridsdale, Miss. Lucy","female",50,0,0,"W./C. 14258",10.5,"","S",1,"Miss",0,1
+329,"Survived","Third","Goldsmith, Mrs. Frank John (Emily Alice Brown)","female",31,1,1,"363291",20.525,"","S",1,"Mrs",2,1
+388,"Survived","Second","Buss, Miss. Kate","female",36,0,0,"27849",13,"","S",1,"Miss",0,1
+837,"Perished","Third","Pasic, Mr. Jakob","male",21,0,0,"315097",8.6625,"","S",0,"Mr",0,1
+521,"Survived","First","Perreault, Miss. Anne","female",30,0,0,"12749",93.5,"B73","S",1,"Miss",0,1
+311,"Survived","First","Hays, Miss. Margaret Bechstein","female",24,0,0,"11767",83.1583,"C54","C",1,"Miss",0,1
+67,"Survived","Second","Nye, Mrs. (Elizabeth Ramell)","female",29,0,0,"C.A. 29395",10.5,"F33","S",1,"Mrs",0,1
+161,"Perished","Third","Cribb, Mr. John Hatfield","male",44,0,1,"371362",16.1,"","S",0,"Mr",1,1
+189,"Perished","Third","Bourke, Mr. John","male",40,1,1,"364849",15.5,"","Q",0,"Mr",2,1
+582,"Survived","First","Thayer, Mrs. John Borland (Marian Longstreth Morris)","female",39,1,1,"17421",110.8833,"C68","C",1,"Mrs",2,1
+432,"Survived","Third","Thorneycroft, Mrs. Percival (Florence Kate White)","female",29.3282442748092,1,0,"376564",16.1,"","S",1,"Mrs",1,1
+887,"Perished","Second","Montvila, Rev. Juozas","male",27,0,0,"211536",13,"","S",0,"Rev",0,1
+595,"Perished","Second","Chapman, Mr. John Henry","male",37,1,0,"SC/AH 29037",26,"","S",0,"Mr",1,1
+712,"Perished","First","Klaber, Mr. Herman","male",42.0259259259259,0,0,"113028",26.55,"C124","S",0,"Mr",0,1
+34,"Perished","Second","Wheadon, Mr. Edward H","male",66,0,0,"C.A. 24579",10.5,"","S",0,"Mr",0,1
+174,"Perished","Third","Sivola, Mr. Antti Wilhelm","male",21,0,0,"STON/O 2. 3101280",7.925,"","S",0,"Mr",0,1
+676,"Perished","Third","Edvardsson, Mr. Gustaf Hjalmar","male",18,0,0,"349912",7.775,"","S",0,"Mr",0,1
+574,"Survived","Third","Kelly, Miss. Mary","female",21.4772727272727,0,0,"14312",7.75,"","Q",1,"Miss",0,1
+522,"Perished","Third","Vovk, Mr. Janko","male",22,0,0,"349252",7.8958,"","S",0,"Mr",0,1
+476,"Perished","First","Clifford, Mr. George Quincy","male",42.0259259259259,0,0,"110465",52,"A14","S",0,"Mr",0,1
+24,"Survived","First","Sloper, Mr. William Thompson","male",28,0,0,"113788",35.5,"A6","S",1,"Mr",0,1
+218,"Perished","Second","Jacobsohn, Mr. Sidney Samuel","male",42,1,0,"243847",27,"","S",0,"Mr",1,1
+809,"Perished","Second","Meyer, Mr. August","male",39,0,0,"248723",13,"","S",0,"Mr",0,1
+19,"Perished","Third","Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)","female",31,1,0,"345763",18,"","S",0,"Mrs",1,1
+735,"Perished","Second","Troupiansky, Mr. Moses Aaron","male",23,0,0,"233639",13,"","S",0,"Mr",0,1
+537,"Perished","First","Butt, Major. Archibald Willingham","male",45,0,0,"113050",26.55,"B38","S",0,"Sir",0,1
+716,"Perished","Third","Soholt, Mr. Peter Andreas Lauritz Andersen","male",19,0,0,"348124",7.65,"F G73","S",0,"Mr",0,1
+506,"Perished","First","Penasco y Castellana, Mr. Victor de Satode","male",18,1,0,"PC 17758",108.9,"C65","C",0,"Mr",1,1
+465,"Perished","Third","Maisner, Mr. Simon","male",29.3282442748092,0,0,"A/S 2816",8.05,"","S",0,"Mr",0,1
+163,"Perished","Third","Bengtsson, Mr. John Viktor","male",26,0,0,"347068",7.775,"","S",0,"Mr",0,1
+418,"Survived","Second","Silven, Miss. Lyyli Karoliina","female",18,0,2,"250652",13,"","S",1,"Miss",2,1
+881,"Survived","Second","Shelley, Mrs. William (Imanita Parrish Hall)","female",25,0,1,"230433",26,"","S",1,"Mrs",1,1
+702,"Survived","First","Silverthorne, Mr. Spencer Victor","male",35,0,0,"PC 17475",26.2875,"E24","S",1,"Mr",0,1
+425,"Perished","Third","Rosblom, Mr. Viktor Richard","male",18,1,1,"370129",20.2125,"","S",0,"Mr",2,1
+878,"Perished","Third","Petroff, Mr. Nedelio","male",19,0,0,"349212",7.8958,"","S",0,"Mr",0,1
+862,"Perished","Second","Giles, Mr. Frederick Edward","male",21,1,0,"28134",11.5,"","S",0,"Mr",1,1
+62,"Survived","First","Icard, Miss. Amelie","female",38,0,0,"113572",80,"B28","S",1,"Miss",0,1
+871,"Perished","Third","Balkic, Mr. Cerin","male",26,0,0,"349248",7.8958,"","S",0,"Mr",0,1
+287,"Survived","Third","de Mulder, Mr. Theodore","male",30,0,0,"345774",9.5,"","S",1,"Mr",0,1
+531,"Survived","Second","Quick, Miss. Phyllis May","female",2,1,1,"26360",26,"","S",1,"Miss",2,1
+561,"Perished","Third","Morrow, Mr. Thomas Rowan","male",29.3282442748092,0,0,"372622",7.75,"","Q",0,"Mr",0,1
+261,"Perished","Third","Smith, Mr. Thomas","male",29.3282442748092,0,0,"384461",7.75,"","Q",0,"Mr",0,1
+28,"Perished","First","Fortune, Mr. Charles Alexander","male",19,3,2,"19950",263,"C23 C25 C27","S",0,"Mr",5,1
+635,"Perished","Third","Skoog, Miss. Mabel","female",9,3,2,"347088",27.9,"","S",0,"Miss",5,1
+732,"Perished","Third","Hassan, Mr. Houssein G N","male",11,0,0,"2699",18.7875,"","C",0,"Mr",0,1
+1,"Perished","Third","Braund, Mr. Owen Harris","male",22,1,0,"A/5 21171",7.25,"","S",0,"Mr",1,1
+445,"Survived","Third","Johannesen-Bratthammer, Mr. Bernt","male",29.3282442748092,0,0,"65306",8.1125,"","S",1,"Mr",0,1
+766,"Survived","First","Hogeboom, Mrs. John C (Anna Andrews)","female",51,1,0,"13502",77.9583,"D11","S",1,"Mrs",1,1
+399,"Perished","Second","Pain, Dr. Alfred","male",23,0,0,"244278",10.5,"","S",0,"Dr",0,1
+304,"Survived","Second","Keane, Miss. Nora A","female",32.656862745098,0,0,"226593",12.35,"E101","Q",1,"Miss",0,1
+69,"Survived","Third","Andersson, Miss. Erna Alexandra","female",17,4,2,"3101281",7.925,"","S",1,"Miss",6,1
+542,"Perished","Third","Andersson, Miss. Ingeborg Constanzia","female",9,4,2,"347082",31.275,"","S",0,"Miss",6,1
+291,"Survived","First","Barber, Miss. Ellen ""Nellie""","female",26,0,0,"19877",78.85,"","S",1,"Miss",0,1
+194,"Survived","Second","Navratil, Master. Michel M","male",3,1,1,"230080",26,"F2","S",1,"Master",2,1
+401,"Survived","Third","Niskanen, Mr. Juha","male",39,0,0,"STON/O 2. 3101289",7.925,"","S",1,"Mr",0,1
+548,"Survived","Second","Padro y Manent, Mr. Julian","male",33.5757575757576,0,0,"SC/PARIS 2146",13.8625,"","C",1,"Mr",0,1
+166,"Survived","Third","Goldsmith, Master. Frank John William ""Frankie""","male",9,0,2,"363291",20.525,"","S",1,"Master",2,1
+49,"Perished","Third","Samaan, Mr. Youssef","male",29.3282442748092,2,0,"2662",21.6792,"","C",0,"Mr",2,1
+100,"Perished","Second","Kantor, Mr. Sinai","male",34,1,0,"244367",26,"","S",0,"Mr",1,1
+478,"Perished","Third","Braund, Mr. Lewis Richard","male",29,1,0,"3460",7.0458,"","S",0,"Mr",1,1
+181,"Perished","Third","Sage, Miss. Constance Gladys","female",18.94,8,2,"CA. 2343",69.55,"","S",0,"Miss",10,1
+206,"Perished","Third","Strom, Miss. Telma Matilda","female",2,0,1,"347054",10.4625,"G6","S",0,"Miss",1,1
+575,"Perished","Third","Rush, Mr. Alfred George John","male",16,0,0,"A/4. 20589",8.05,"","S",0,"Mr",0,1
+312,"Survived","First","Ryerson, Miss. Emily Borie","female",18,2,2,"PC 17608",262.375,"B57 B59 B63 B66","C",1,"Miss",4,1
+64,"Perished","Third","Skoog, Master. Harald","male",4,3,2,"347088",27.9,"","S",0,"Master",5,1
+347,"Survived","Second","Smith, Miss. Marion Elsie","female",40,0,0,"31418",13,"","S",1,"Miss",0,1
+622,"Survived","First","Kimball, Mr. Edwin Nelson Jr","male",42,1,0,"11753",52.5542,"D19","S",1,"Mr",1,1
+239,"Perished","Second","Pengelly, Mr. Frederick William","male",19,0,0,"28665",10.5,"","S",0,"Mr",0,1
+429,"Perished","Third","Flynn, Mr. James","male",29.3282442748092,0,0,"364851",7.75,"","Q",0,"Mr",0,1
+496,"Perished","Third","Yousseff, Mr. Gerious","male",29.3282442748092,0,0,"2627",14.4583,"","C",0,"Mr",0,1
+833,"Perished","Third","Saad, Mr. Amin","male",29.3282442748092,0,0,"2671",7.2292,"","C",0,"Mr",0,1
+810,"Survived","First","Chambers, Mrs. Norman Campbell (Bertha Griggs)","female",33,1,0,"113806",53.1,"E8","S",1,"Mrs",1,1
+54,"Survived","Second","Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)","female",29,1,0,"2926",26,"","S",1,"Mrs",1,1
+10,"Survived","Second","Nasser, Mrs. Nicholas (Adele Achem)","female",14,1,0,"237736",30.0708,"","C",1,"Mrs",1,1
+783,"Perished","First","Long, Mr. Milton Clyde","male",29,0,0,"113501",30,"D6","S",0,"Mr",0,1
+117,"Perished","Third","Connors, Mr. Patrick","male",70.5,0,0,"370369",7.75,"","Q",0,"Mr",0,1
+66,"Survived","Third","Moubarek, Master. Gerios","male",6.44791666666667,1,1,"2661",15.2458,"","C",1,"Master",2,1
+763,"Survived","Third","Barah, Mr. Hanna Assi","male",20,0,0,"2663",7.2292,"","C",1,"Mr",0,1
+880,"Survived","First","Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)","female",56,0,1,"11767",83.1583,"C50","C",1,"Mrs",1,1
+791,"Perished","Third","Keane, Mr. Andrew ""Andy""","male",29.3282442748092,0,0,"12460",7.75,"","Q",0,"Mr",0,1
+405,"Perished","Third","Oreskovic, Miss. Marija","female",20,0,0,"315096",8.6625,"","S",0,"Miss",0,1
+872,"Survived","First","Beckwith, Mrs. Richard Leonard (Sallie Monypeny)","female",47,1,1,"11751",52.5542,"D35","S",1,"Mrs",2,1
+22,"Survived","Second","Beesley, Mr. Lawrence","male",34,0,0,"248698",13,"D56","S",1,"Mr",0,1
+515,"Perished","Third","Coleff, Mr. Satio","male",24,0,0,"349209",7.4958,"","S",0,"Mr",0,1
+268,"Survived","Third","Persson, Mr. Ernst Ulrik","male",25,1,0,"347083",7.775,"","S",1,"Mr",1,1
+544,"Survived","Second","Beane, Mr. Edward","male",32,1,0,"2908",26,"","S",1,"Mr",1,1
+257,"Survived","First","Thorne, Mrs. Gertrude Maybelle","female",42.0259259259259,0,0,"PC 17585",79.2,"","C",1,"Mrs",0,1
+183,"Perished","Third","Asplund, Master. Clarence Gustaf Hugo","male",9,4,2,"347077",31.3875,"","S",0,"Master",6,1
+374,"Perished","First","Ringhini, Mr. Sante","male",22,0,0,"PC 17760",135.6333,"","C",0,"Mr",0,1
+155,"Perished","Third","Olsen, Mr. Ole Martin","male",29.3282442748092,0,0,"Fa 265302",7.3125,"","S",0,"Mr",0,1
+627,"Perished","Second","Kirkland, Rev. Charles Leonard","male",57,0,0,"219533",12.35,"","Q",0,"Rev",0,1
+588,"Survived","First","Frolicher-Stehli, Mr. Maxmillian","male",60,1,1,"13567",79.2,"B41","C",1,"Mr",2,1
+573,"Survived","First","Flynn, Mr. John Irwin (""Irving"")","male",36,0,0,"PC 17474",26.3875,"E25","S",1,"Mr",0,1
+333,"Perished","First","Graham, Mr. George Edward","male",38,0,1,"PC 17582",153.4625,"C91","S",0,"Mr",1,1
+569,"Perished","Third","Doharr, Mr. Tannous","male",29.3282442748092,0,0,"2686",7.2292,"","C",0,"Mr",0,1
+4,"Survived","First","Futrelle, Mrs. Jacques Heath (Lily May Peel)","female",35,1,0,"113803",53.1,"C123","S",1,"Mrs",1,1
+827,"Perished","Third","Lam, Mr. Len","male",29.3282442748092,0,0,"1601",56.4958,"","S",0,"Mr",0,1
+270,"Survived","First","Bissette, Miss. Amelia","female",35,0,0,"PC 17760",135.6333,"C99","S",1,"Miss",0,1
+593,"Perished","Third","Elsbury, Mr. William James","male",47,0,0,"A/5 3902",7.25,"","S",0,"Mr",0,1
+847,"Perished","Third","Sage, Mr. Douglas Bullen","male",29.3282442748092,8,2,"CA. 2343",69.55,"","S",0,"Mr",10,1
+828,"Survived","Second","Mallet, Master. Andre","male",1,0,2,"S.C./PARIS 2079",37.0042,"","C",1,"Master",2,1
+686,"Perished","Second","Laroche, Mr. Joseph Philippe Lemercier","male",25,1,2,"SC/Paris 2123",41.5792,"","C",0,"Mr",3,1
+890,"Survived","First","Behr, Mr. Karl Howell","male",26,0,0,"111369",30,"C148","C",1,"Mr",0,1
+307,"Survived","First","Fleming, Miss. Margaret","female",32.656862745098,0,0,"17421",110.8833,"","C",1,"Miss",0,1
+262,"Survived","Third","Asplund, Master. Edvin Rojj Felix","male",3,4,2,"347077",31.3875,"","S",1,"Master",6,1
+129,"Survived","Third","Peter, Miss. Anna","female",6.44791666666667,1,1,"2668",22.3583,"F E69","C",1,"Miss",2,1
+456,"Survived","Third","Jalsevac, Mr. Ivan","male",29,0,0,"349240",7.8958,"","C",1,"Mr",0,1
+143,"Survived","Third","Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)","female",24,1,0,"STON/O2. 3101279",15.85,"","S",1,"Mrs",1,1
+831,"Survived","Third","Yasbeck, Mrs. Antoni (Selini Alexander)","female",15,1,0,"2659",14.4542,"","C",1,"Mrs",1,1
+612,"Perished","Third","Jardin, Mr. Jose Neto","male",29.3282442748092,0,0,"SOTON/O.Q. 3101305",7.05,"","S",0,"Mr",0,1
+276,"Survived","First","Andrews, Miss. Kornelia Theodosia","female",63,1,0,"13502",77.9583,"D7","S",1,"Miss",1,1
+408,"Survived","Second","Richards, Master. William Rowe","male",3,1,1,"29106",18.75,"","S",1,"Master",2,1
+359,"Survived","Third","McGovern, Miss. Mary","female",21.4772727272727,0,0,"330931",7.8792,"","Q",1,"Miss",0,1
+219,"Survived","First","Bazzani, Miss. Albina","female",32,0,0,"11813",76.2917,"D15","C",1,"Miss",0,1
+775,"Survived","Second","Hocking, Mrs. Elizabeth (Eliza Needs)","female",54,1,3,"29105",23,"","S",1,"Mrs",4,1
+121,"Perished","Second","Hickman, Mr. Stanley George","male",21,2,0,"S.O.C. 14879",73.5,"","S",0,"Mr",2,1
+657,"Perished","Third","Radeff, Mr. Alexander","male",29.3282442748092,0,0,"349223",7.8958,"","S",0,"Mr",0,1
+42,"Perished","Second","Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)","female",27,1,0,"11668",21,"","S",0,"Mrs",1,1
+16,"Survived","Second","Hewlett, Mrs. (Mary D Kingcome) ","female",55,0,0,"248706",16,"","S",1,"Mrs",0,1
+132,"Perished","Third","Coelho, Mr. Domingos Fernandeo","male",20,0,0,"SOTON/O.Q. 3101307",7.05,"","S",0,"Mr",0,1
+718,"Survived","Second","Troutt, Miss. Edwina Celia ""Winnie""","female",27,0,0,"34218",10.5,"E101","S",1,"Miss",0,1
+760,"Survived","First","Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)","female",33,0,0,"110152",86.5,"B77","S",1,"Lady",0,1
+360,"Survived","Third","Mockler, Miss. Helen Mary ""Ellie""","female",21.4772727272727,0,0,"330980",7.8792,"","Q",1,"Miss",0,1
+140,"Perished","First","Giglio, Mr. Victor","male",24,0,0,"PC 17593",79.2,"B86","C",0,"Mr",0,1
+508,"Survived","First","Bradley, Mr. George (""George Arthur Brayton"")","male",42.0259259259259,0,0,"111427",26.55,"","S",1,"Mr",0,1
+520,"Perished","Third","Pavlovic, Mr. Stefo","male",32,0,0,"349242",7.8958,"","S",0,"Mr",0,1
+859,"Survived","Third","Baclini, Mrs. Solomon (Latifa Qurban)","female",24,0,3,"2666",19.2583,"","C",1,"Mrs",3,1
+826,"Perished","Third","Flynn, Mr. John","male",29.3282442748092,0,0,"368323",6.95,"","Q",0,"Mr",0,1
+464,"Perished","Second","Milling, Mr. Jacob Christian","male",48,0,0,"234360",13,"","S",0,"Mr",0,1
+343,"Perished","Second","Collander, Mr. Erik Gustaf","male",28,0,0,"248740",13,"","S",0,"Mr",0,1
+744,"Perished","Third","McNamee, Mr. Neal","male",24,1,0,"376566",16.1,"","S",0,"Mr",1,1
+747,"Perished","Third","Abbott, Mr. Rossmore Edward","male",16,1,1,"C.A. 2673",20.25,"","S",0,"Mr",2,1
+250,"Perished","Second","Carter, Rev. Ernest Courtenay","male",54,1,0,"244252",26,"","S",0,"Rev",1,1
+297,"Perished","Third","Hanna, Mr. Mansour","male",23.5,0,0,"2693",7.2292,"","C",0,"Mr",0,1
+420,"Perished","Third","Van Impe, Miss. Catharina","female",10,0,2,"345773",24.15,"","S",0,"Miss",2,1
+501,"Perished","Third","Calic, Mr. Petar","male",17,0,0,"315086",8.6625,"","S",0,"Mr",0,1
+306,"Survived","First","Allison, Master. Hudson Trevor","male",0.92,1,2,"113781",151.55,"C22 C26","S",1,"Master",3,1
+259,"Survived","First","Ward, Miss. Anna","female",35,0,0,"PC 17755",512.3292,"","C",1,"Miss",0,1
+722,"Perished","Third","Jensen, Mr. Svend Lauritz","male",17,1,0,"350048",7.0542,"","S",0,"Mr",1,1
+32,"Survived","First","Spencer, Mrs. William Augustus (Marie Eugenie)","female",42.0259259259259,1,0,"PC 17569",146.5208,"B78","C",1,"Mrs",1,1
+610,"Survived","First","Shutes, Miss. Elizabeth W","female",40,0,0,"PC 17582",153.4625,"C125","S",1,"Miss",0,1
+447,"Survived","Second","Mellinger, Miss. Madeleine Violet","female",13,0,1,"250644",19.5,"","S",1,"Miss",1,1
+377,"Survived","Third","Landergren, Miss. Aurora Adelia","female",22,0,0,"C 7077",7.25,"","S",1,"Miss",0,1
+390,"Survived","Second","Lehmann, Miss. Bertha","female",17,0,0,"SC 1748",12,"","C",1,"Miss",0,1
+533,"Perished","Third","Elias, Mr. Joseph Jr","male",17,1,1,"2690",7.2292,"","C",0,"Mr",2,1
+113,"Perished","Third","Barton, Mr. David John","male",22,0,0,"324669",8.05,"","S",0,"Mr",0,1
+240,"Perished","Second","Hunt, Mr. George Henry","male",33,0,0,"SCO/W 1585",12.275,"","S",0,"Mr",0,1
+673,"Perished","Second","Mitchell, Mr. Henry Michael","male",70,0,0,"C.A. 24580",10.5,"","S",0,"Mr",0,1
+693,"Survived","Third","Lam, Mr. Ali","male",29.3282442748092,0,0,"1601",56.4958,"","S",1,"Mr",0,1
+599,"Perished","Third","Boulos, Mr. Hanna","male",29.3282442748092,0,0,"2664",7.225,"","C",0,"Mr",0,1
+876,"Survived","Third","Najib, Miss. Adele Kiamie ""Jane""","female",15,0,0,"2667",7.225,"","C",1,"Miss",0,1
+681,"Perished","Third","Peters, Miss. Katie","female",21.4772727272727,0,0,"330935",8.1375,"","Q",0,"Miss",0,1
+308,"Survived","First","Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)","female",17,1,0,"PC 17758",108.9,"C65","C",1,"Mrs",1,1
+51,"Perished","Third","Panula, Master. Juha Niilo","male",7,4,1,"3101295",39.6875,"","S",0,"Master",5,1
+601,"Survived","Second","Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)","female",24,2,1,"243847",27,"","S",1,"Mrs",3,1
+81,"Perished","Third","Waelens, Mr. Achille","male",22,0,0,"345767",9,"","S",0,"Mr",0,1
+592,"Survived","First","Stephenson, Mrs. Walter Bertram (Martha Eustis)","female",52,1,0,"36947",78.2667,"D20","C",1,"Mrs",1,1
+736,"Perished","Third","Williams, Mr. Leslie","male",28.5,0,0,"54636",16.1,"","S",0,"Mr",0,1
+417,"Survived","Second","Drew, Mrs. James Vivian (Lulu Thorne Christian)","female",34,1,1,"28220",32.5,"","S",1,"Mrs",2,1
+210,"Survived","First","Blank, Mr. Henry","male",40,0,0,"112277",31,"A31","C",1,"Mr",0,1
+128,"Survived","Third","Madsen, Mr. Fridtjof Arne","male",24,0,0,"C 17369",7.1417,"","S",1,"Mr",0,1
+540,"Survived","First","Frolicher, Miss. Hedwig Margaritha","female",22,0,2,"13568",49.5,"B39","C",1,"Miss",2,1
+660,"Perished","First","Newell, Mr. Arthur Webster","male",58,0,2,"35273",113.275,"D48","C",0,"Mr",2,1
+108,"Survived","Third","Moss, Mr. Albert Johan","male",29.3282442748092,0,0,"312991",7.775,"","S",1,"Mr",0,1
+861,"Perished","Third","Hansen, Mr. Claus Peter","male",41,2,0,"350026",14.1083,"","S",0,"Mr",2,1
+629,"Perished","Third","Bostandyeff, Mr. Guentcho","male",26,0,0,"349224",7.8958,"","S",0,"Mr",0,1
+361,"Perished","Third","Skoog, Mr. Wilhelm","male",40,1,4,"347088",27.9,"","S",0,"Mr",5,1
+407,"Perished","Third","Widegren, Mr. Carl/Charles Peter","male",51,0,0,"347064",7.75,"","S",0,"Mr",0,1
+127,"Perished","Third","McMahon, Mr. Martin","male",29.3282442748092,0,0,"370372",7.75,"","Q",0,"Mr",0,1
+875,"Survived","Second","Abelson, Mrs. Samuel (Hannah Wizosky)","female",28,1,0,"P/PP 3381",24,"","C",1,"Mrs",1,1
+857,"Survived","First","Wick, Mrs. George Dennick (Mary Hitchcock)","female",45,1,1,"36928",164.8667,"","S",1,"Mrs",2,1
+421,"Perished","Third","Gheorgheff, Mr. Stanio","male",29.3282442748092,0,0,"349254",7.8958,"","C",0,"Mr",0,1
+214,"Perished","Second","Givard, Mr. Hans Kristensen","male",30,0,0,"250646",13,"","S",0,"Mr",0,1
+167,"Survived","First","Chibnall, Mrs. (Edith Martha Bowerman)","female",42.0259259259259,0,1,"113505",55,"E33","S",1,"Mrs",1,1
+491,"Perished","Third","Hagland, Mr. Konrad Mathias Reiersen","male",29.3282442748092,1,0,"65304",19.9667,"","S",0,"Mr",1,1
+873,"Perished","First","Carlsson, Mr. Frans Olof","male",33,0,0,"695",5,"B51 B53 B55","S",0,"Mr",0,1
+740,"Perished","Third","Nankoff, Mr. Minko","male",29.3282442748092,0,0,"349218",7.8958,"","S",0,"Mr",0,1
+457,"Perished","First","Millet, Mr. Francis Davis","male",65,0,0,"13509",26.55,"E38","S",0,"Mr",0,1
+800,"Perished","Third","Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)","female",30,1,1,"345773",24.15,"","S",0,"Mrs",2,1
+142,"Survived","Third","Nysten, Miss. Anna Sofia","female",22,0,0,"347081",7.75,"","S",1,"Miss",0,1
+473,"Survived","Second","West, Mrs. Edwy Arthur (Ada Mary Worth)","female",33,1,2,"C.A. 34651",27.75,"","S",1,"Mrs",3,1
+669,"Perished","Third","Cook, Mr. Jacob","male",43,0,0,"A/5 3536",8.05,"","S",0,"Mr",0,1
+354,"Perished","Third","Arnold-Franchi, Mr. Josef","male",25,1,0,"349237",17.8,"","S",0,"Mr",1,1
+371,"Survived","First","Harder, Mr. George Achilles","male",25,1,0,"11765",55.4417,"E50","C",1,"Mr",1,1
+646,"Survived","First","Harper, Mr. Henry Sleeper","male",48,1,0,"PC 17572",76.7292,"D33","C",1,"Mr",1,1
+556,"Perished","First","Wright, Mr. George","male",62,0,0,"113807",26.55,"","S",0,"Mr",0,1
+845,"Perished","Third","Culumovic, Mr. Jeso","male",17,0,0,"315090",8.6625,"","S",0,"Mr",0,1
+280,"Survived","Third","Abbott, Mrs. Stanton (Rosa Hunt)","female",35,1,1,"C.A. 2673",20.25,"","S",1,"Mrs",2,1
+778,"Survived","Third","Emanuel, Miss. Virginia Ethel","female",5,0,0,"364516",12.475,"","S",1,"Miss",0,1
+779,"Perished","Third","Kilgannon, Mr. Thomas J","male",29.3282442748092,0,0,"36865",7.7375,"","Q",0,"Mr",0,1
+426,"Perished","Third","Wiseman, Mr. Phillippe","male",29.3282442748092,0,0,"A/4. 34244",7.25,"","S",0,"Mr",0,1
+289,"Survived","Second","Hosono, Mr. Masabumi","male",42,0,0,"237798",13,"","S",1,"Mr",0,1
+317,"Survived","Second","Kantor, Mrs. Sinai (Miriam Sternin)","female",24,1,0,"244367",26,"","S",1,"Mrs",1,1
+633,"Survived","First","Stahelin-Maeglin, Dr. Max","male",32,0,0,"13214",30.5,"B50","C",1,"Dr",0,1
+549,"Perished","Third","Goldsmith, Mr. Frank John","male",33,1,1,"363291",20.525,"","S",0,"Mr",2,1
+149,"Perished","Second","Navratil, Mr. Michel (""Louis M Hoffman"")","male",36.5,0,2,"230080",26,"F2","S",0,"Mr",2,1
+150,"Perished","Second","Byles, Rev. Thomas Roussel Davids","male",42,0,0,"244310",13,"","S",0,"Rev",0,1
+696,"Perished","Second","Chapman, Mr. Charles Henry","male",52,0,0,"248731",13.5,"","S",0,"Mr",0,1
+283,"Perished","Third","de Pelsmaeker, Mr. Alfons","male",16,0,0,"345778",9.5,"","S",0,"Mr",0,1
+685,"Perished","Second","Brown, Mr. Thomas William Solomon","male",60,1,1,"29750",39,"","S",0,"Mr",2,1
+697,"Perished","Third","Kelly, Mr. James","male",44,0,0,"363592",8.05,"","S",0,"Mr",0,1
+171,"Perished","First","Van der hoef, Mr. Wyckoff","male",61,0,0,"111240",33.5,"B19","S",0,"Mr",0,1
+355,"Perished","Third","Yousif, Mr. Wazli","male",29.3282442748092,0,0,"2647",7.225,"","C",0,"Mr",0,1
+781,"Survived","Third","Ayoub, Miss. Banoura","female",13,0,0,"2687",7.2292,"","C",1,"Miss",0,1
+530,"Perished","Second","Hocking, Mr. Richard George","male",23,2,1,"29104",11.5,"","S",0,"Mr",3,1
+739,"Perished","Third","Ivanoff, Mr. Kanio","male",29.3282442748092,0,0,"349201",7.8958,"","S",0,"Mr",0,1
+37,"Survived","Third","Mamee, Mr. Hanna","male",29.3282442748092,0,0,"2677",7.2292,"","C",1,"Mr",0,1
+560,"Survived","Third","de Messemaeker, Mrs. Guillaume Joseph (Emma)","female",36,1,0,"345572",17.4,"","S",1,"Mrs",1,1
+559,"Survived","First","Taussig, Mrs. Emil (Tillie Mandelbaum)","female",39,1,1,"110413",79.65,"E67","S",1,"Mrs",2,1
+619,"Survived","Second","Becker, Miss. Marion Louise","female",4,2,1,"230136",39,"F4","S",1,"Miss",3,1
+725,"Survived","First","Chambers, Mr. Norman Campbell","male",27,1,0,"113806",53.1,"E8","S",1,"Mr",1,1
+313,"Perished","Second","Lahtinen, Mrs. William (Anna Sylfven)","female",26,1,1,"250651",26,"","S",0,"Mrs",2,1
+245,"Perished","Third","Attalah, Mr. Sleiman","male",30,0,0,"2694",7.225,"","C",0,"Mr",0,1
+558,"Perished","First","Robbins, Mr. Victor","male",42.0259259259259,0,0,"PC 17757",227.525,"","C",0,"Mr",0,1
+789,"Survived","Third","Dean, Master. Bertram Vere","male",1,1,2,"C.A. 2315",20.575,"","S",1,"Master",3,1
+585,"Perished","Third","Paulner, Mr. Uscher","male",29.3282442748092,0,0,"3411",8.7125,"","C",0,"Mr",0,1
+788,"Perished","Third","Rice, Master. George Hugh","male",8,4,1,"382652",29.125,"","Q",0,"Master",5,1
+776,"Perished","Third","Myhrman, Mr. Pehr Fabian Oliver Malkolm","male",18,0,0,"347078",7.75,"","S",0,"Mr",0,1
+813,"Perished","Second","Slemen, Mr. Richard James","male",35,0,0,"28206",10.5,"","S",0,"Mr",0,1
+25,"Perished","Third","Palsson, Miss. Torborg Danira","female",8,3,1,"349909",21.075,"","S",0,"Miss",4,1
+380,"Perished","Third","Gustafsson, Mr. Karl Gideon","male",19,0,0,"347069",7.775,"","S",0,"Mr",0,1
+458,"Survived","First","Kenyon, Mrs. Frederick R (Marion)","female",42.0259259259259,1,0,"17464",51.8625,"D21","S",1,"Mrs",1,1
+785,"Perished","Third","Ali, Mr. William","male",25,0,0,"SOTON/O.Q. 3101312",7.05,"","S",0,"Mr",0,1
+815,"Perished","Third","Tomlin, Mr. Ernest Portage","male",30.5,0,0,"364499",8.05,"","S",0,"Mr",0,1
+76,"Perished","Third","Moen, Mr. Sigurd Hansen","male",25,0,0,"348123",7.65,"F G73","S",0,"Mr",0,1
+528,"Perished","First","Farthing, Mr. John","male",42.0259259259259,0,0,"PC 17483",221.7792,"C95","S",0,"Mr",0,1
+50,"Perished","Third","Arnold-Franchi, Mrs. Josef (Josefine Franchi)","female",18,1,0,"349237",17.8,"","S",0,"Mrs",1,1
+439,"Perished","First","Fortune, Mr. Mark","male",64,1,4,"19950",263,"C23 C25 C27","S",0,"Mr",5,1
+589,"Perished","Third","Gilinski, Mr. Eliezer","male",22,0,0,"14973",8.05,"","S",0,"Mr",0,1
+8,"Perished","Third","Palsson, Master. Gosta Leonard","male",2,3,1,"349909",21.075,"","S",0,"Master",4,1
+314,"Perished","Third","Hendekovic, Mr. Ignjac","male",28,0,0,"349243",7.8958,"","S",0,"Mr",0,1
+315,"Perished","Second","Hart, Mr. Benjamin","male",43,1,1,"F.C.C. 13529",26.25,"","S",0,"Mr",2,1
+765,"Perished","Third","Eklund, Mr. Hans Linus","male",16,0,0,"347074",7.775,"","S",0,"Mr",0,1
+578,"Survived","First","Silvey, Mrs. William Baird (Alice Munger)","female",39,1,0,"13507",55.9,"E44","S",1,"Mrs",1,1
+804,"Survived","Third","Thomas, Master. Assad Alexander","male",0.42,0,1,"2625",8.5167,"","C",1,"Master",1,1
+266,"Perished","Second","Reeves, Mr. David","male",36,0,0,"C.A. 17248",10.5,"","S",0,"Mr",0,1
+392,"Survived","Third","Jansson, Mr. Carl Olof","male",21,0,0,"350034",7.7958,"","S",1,"Mr",0,1
+319,"Survived","First","Wick, Miss. Mary Natalie","female",31,0,2,"36928",164.8667,"C7","S",1,"Miss",2,1
+23,"Survived","Third","McGowan, Miss. Anna ""Annie""","female",15,0,0,"330923",8.0292,"","Q",1,"Miss",0,1
+46,"Perished","Third","Rogers, Mr. William John","male",29.3282442748092,0,0,"S.C./A.4. 23567",8.05,"","S",0,"Mr",0,1
+138,"Perished","First","Futrelle, Mr. Jacques Heath","male",37,1,0,"113803",53.1,"C123","S",0,"Mr",1,1
+708,"Survived","First","Calderhead, Mr. Edward Pennington","male",42,0,0,"PC 17476",26.2875,"E24","S",1,"Mr",0,1
+422,"Perished","Third","Charters, Mr. David","male",21,0,0,"A/5. 13032",7.7333,"","Q",0,"Mr",0,1
+711,"Survived","First","Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")","female",24,0,0,"PC 17482",49.5042,"C90","C",1,"Mlle",0,1
+877,"Perished","Third","Gustafsson, Mr. Alfred Ossian","male",20,0,0,"7534",9.8458,"","S",0,"Mr",0,1
+14,"Perished","Third","Andersson, Mr. Anders Johan","male",39,1,5,"347082",31.275,"","S",0,"Mr",6,1
+608,"Survived","First","Daniel, Mr. Robert Williams","male",27,0,0,"113804",30.5,"","S",1,"Mr",0,1
+255,"Perished","Third","Rosblom, Mrs. Viktor (Helena Wilhelmina)","female",41,0,2,"370129",20.2125,"","S",0,"Mrs",2,1
+846,"Perished","Third","Abbing, Mr. Anthony","male",42,0,0,"C.A. 5547",7.55,"","S",0,"Mr",0,1
+470,"Survived","Third","Baclini, Miss. Helene Barbara","female",0.75,2,1,"2666",19.2583,"","C",1,"Miss",3,1
+2,"Survived","First","Cumings, Mrs. John Bradley (Florence Briggs Thayer)","female",38,1,0,"PC 17599",71.2833,"C85","C",1,"Mrs",1,0
+3,"Survived","Third","Heikkinen, Miss. Laina","female",26,0,0,"STON/O2. 3101282",7.925,"","S",1,"Miss",0,0
+5,"Perished","Third","Allen, Mr. William Henry","male",35,0,0,"373450",8.05,"","S",0,"Mr",0,0
+7,"Perished","First","McCarthy, Mr. Timothy J","male",54,0,0,"17463",51.8625,"E46","S",0,"Mr",0,0
+9,"Survived","Third","Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)","female",27,0,2,"347742",11.1333,"","S",1,"Mrs",2,0
+13,"Perished","Third","Saundercock, Mr. William Henry","male",20,0,0,"A/5. 2151",8.05,"","S",0,"Mr",0,0
+15,"Perished","Third","Vestrom, Miss. Hulda Amanda Adolfina","female",14,0,0,"350406",7.8542,"","S",0,"Miss",0,0
+18,"Survived","Second","Williams, Mr. Charles Eugene","male",33.5757575757576,0,0,"244373",13,"","S",1,"Mr",0,0
+21,"Perished","Second","Fynney, Mr. Joseph J","male",35,0,0,"239865",26,"","S",0,"Mr",0,0
+26,"Survived","Third","Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)","female",38,1,5,"347077",31.3875,"","S",1,"Mrs",6,0
+29,"Survived","Third","O'Dwyer, Miss. Ellen ""Nellie""","female",21.4772727272727,0,0,"330959",7.8792,"","Q",1,"Miss",0,0
+33,"Survived","Third","Glynn, Miss. Mary Agatha","female",21.4772727272727,0,0,"335677",7.75,"","Q",1,"Miss",0,0
+36,"Perished","First","Holverson, Mr. Alexander Oskar","male",42,1,0,"113789",52,"","S",0,"Mr",1,0
+45,"Survived","Third","Devaney, Miss. Margaret Delia","female",19,0,0,"330958",7.8792,"","Q",1,"Miss",0,0
+52,"Perished","Third","Nosworthy, Mr. Richard Cater","male",21,0,0,"A/4. 39886",7.8,"","S",0,"Mr",0,0
+53,"Survived","First","Harper, Mrs. Henry Sleeper (Myna Haxtun)","female",49,1,0,"PC 17572",76.7292,"D33","C",1,"Mrs",1,0
+61,"Perished","Third","Sirayanian, Mr. Orsen","male",22,0,0,"2669",7.2292,"","C",0,"Mr",0,0
+63,"Perished","First","Harris, Mr. Henry Birkhardt","male",45,1,0,"36973",83.475,"C83","S",0,"Mr",1,0
+65,"Perished","First","Stewart, Mr. Albert A","male",42.0259259259259,0,0,"PC 17605",27.7208,"","C",0,"Mr",0,0
+75,"Survived","Third","Bing, Mr. Lee","male",32,0,0,"1601",56.4958,"","S",1,"Mr",0,0
+83,"Survived","Third","McDermott, Miss. Brigdet Delia","female",21.4772727272727,0,0,"330932",7.7875,"","Q",1,"Miss",0,0
+85,"Survived","Second","Ilett, Miss. Bertha","female",17,0,0,"SO/C 14885",10.5,"","S",1,"Miss",0,0
+88,"Perished","Third","Slocovski, Mr. Selman Francis","male",29.3282442748092,0,0,"SOTON/OQ 392086",8.05,"","S",0,"Mr",0,0
+90,"Perished","Third","Celotti, Mr. Francesco","male",24,0,0,"343275",8.05,"","S",0,"Mr",0,0
+92,"Perished","Third","Andreasson, Mr. Paul Edvin","male",20,0,0,"347466",7.8542,"","S",0,"Mr",0,0
+95,"Perished","Third","Coxon, Mr. Daniel","male",59,0,0,"364500",7.25,"","S",0,"Mr",0,0
+96,"Perished","Third","Shorney, Mr. Charles Joseph","male",29.3282442748092,0,0,"374910",8.05,"","S",0,"Mr",0,0
+99,"Survived","Second","Doling, Mrs. John T (Ada Julia Bone)","female",34,0,1,"231919",23,"","S",1,"Mrs",1,0
+101,"Perished","Third","Petranec, Miss. Matilda","female",28,0,0,"349245",7.8958,"","S",0,"Miss",0,0
+107,"Survived","Third","Salkjelsvik, Miss. Anna Kristine","female",21,0,0,"343120",7.65,"","S",1,"Miss",0,0
+110,"Survived","Third","Moran, Miss. Bertha","female",21.4772727272727,1,0,"371110",24.15,"","Q",1,"Miss",1,0
+114,"Perished","Third","Jussila, Miss. Katriina","female",20,1,0,"4136",9.825,"","S",0,"Miss",1,0
+123,"Perished","Second","Nasser, Mr. Nicholas","male",32.5,1,0,"237736",30.0708,"","C",0,"Mr",1,0
+124,"Survived","Second","Webber, Miss. Susan","female",32.5,0,0,"27267",13,"E101","S",1,"Miss",0,0
+126,"Survived","Third","Nicola-Yarred, Master. Elias","male",12,1,0,"2651",11.2417,"","C",1,"Master",1,0
+130,"Perished","Third","Ekstrom, Mr. Johan","male",45,0,0,"347061",6.975,"","S",0,"Mr",0,0
+135,"Perished","Second","Sobey, Mr. Samuel James Hayden","male",25,0,0,"C.A. 29178",13,"","S",0,"Mr",0,0
+139,"Perished","Third","Osen, Mr. Olaf Elon","male",16,0,0,"7534",9.2167,"","S",0,"Mr",0,0
+141,"Perished","Third","Boulos, Mrs. Joseph (Sultana)","female",29.3282442748092,0,2,"2678",15.2458,"","C",0,"Mrs",2,0
+144,"Perished","Third","Burke, Mr. Jeremiah","male",19,0,0,"365222",6.75,"","Q",0,"Mr",0,0
+145,"Perished","Second","Andrew, Mr. Edgardo Samuel","male",18,0,0,"231945",11.5,"","S",0,"Mr",0,0
+148,"Perished","Third","Ford, Miss. Robina Maggie ""Ruby""","female",9,2,2,"W./C. 6608",34.375,"","S",0,"Miss",4,0
+153,"Perished","Third","Meo, Mr. Alfonzo","male",55.5,0,0,"A.5. 11206",8.05,"","S",0,"Mr",0,0
+157,"Survived","Third","Gilnagh, Miss. Katherine ""Katie""","female",16,0,0,"35851",7.7333,"","Q",1,"Miss",0,0
+162,"Survived","Second","Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)","female",40,0,0,"C.A. 33595",15.75,"","S",1,"Mrs",0,0
+169,"Perished","First","Baumann, Mr. John D","male",42.0259259259259,0,0,"PC 17318",25.925,"","S",0,"Mr",0,0
+170,"Perished","Third","Ling, Mr. Lee","male",28,0,0,"1601",56.4958,"","S",0,"Mr",0,0
+186,"Perished","First","Rood, Mr. Hugh Roscoe","male",42.0259259259259,0,0,"113767",50,"A32","S",0,"Mr",0,0
+187,"Survived","Third","O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)","female",29.3282442748092,1,0,"370365",15.5,"","Q",1,"Mrs",1,0
+188,"Survived","First","Romaine, Mr. Charles Hallace (""Mr C Rolmane"")","male",45,0,0,"111428",26.55,"","S",1,"Mr",0,0
+190,"Perished","Third","Turcin, Mr. Stjepan","male",36,0,0,"349247",7.8958,"","S",0,"Mr",0,0
+191,"Survived","Second","Pinsky, Mrs. (Rosa)","female",32,0,0,"234604",13,"","S",1,"Mrs",0,0
+199,"Survived","Third","Madigan, Miss. Margaret ""Maggie""","female",21.4772727272727,0,0,"370370",7.75,"","Q",1,"Miss",0,0
+207,"Perished","Third","Backstrom, Mr. Karl Alfred","male",32,1,0,"3101278",15.85,"","S",0,"Mr",1,0
+212,"Survived","Second","Cameron, Miss. Clear Annie","female",35,0,0,"F.C.C. 13528",21,"","S",1,"Miss",0,0
+215,"Perished","Third","Kiernan, Mr. Philip","male",29.3282442748092,1,0,"367229",7.75,"","Q",0,"Mr",1,0
+222,"Perished","Second","Bracken, Mr. James H","male",27,0,0,"220367",13,"","S",0,"Mr",0,0
+224,"Perished","Third","Nenkoff, Mr. Christo","male",29.3282442748092,0,0,"349234",7.8958,"","S",0,"Mr",0,0
+226,"Perished","Third","Berglund, Mr. Karl Ivar Sven","male",22,0,0,"PP 4348",9.35,"","S",0,"Mr",0,0
+234,"Survived","Third","Asplund, Miss. Lillian Gertrud","female",5,4,2,"347077",31.3875,"","S",1,"Miss",6,0
+238,"Survived","Second","Collyer, Miss. Marjorie ""Lottie""","female",8,0,2,"C.A. 31921",26.25,"","S",1,"Miss",2,0
+241,"Perished","Third","Zabour, Miss. Thamine","female",21.4772727272727,1,0,"2665",14.4542,"","C",0,"Miss",1,0
+248,"Survived","Second","Hamalainen, Mrs. William (Anna)","female",24,0,2,"250649",14.5,"","S",1,"Mrs",2,0
+249,"Survived","First","Beckwith, Mr. Richard Leonard","male",37,1,1,"11751",52.5542,"D35","S",1,"Mr",2,0
+254,"Perished","Third","Lobb, Mr. William Arthur","male",30,1,0,"A/5. 3336",16.1,"","S",0,"Mr",1,0
+258,"Survived","First","Cherry, Miss. Gladys","female",30,0,0,"110152",86.5,"B77","S",1,"Miss",0,0
+260,"Survived","Second","Parrish, Mrs. (Lutie Davis)","female",50,0,1,"230433",26,"","S",1,"Mrs",1,0
+265,"Perished","Third","Henry, Miss. Delia","female",21.4772727272727,0,0,"382649",7.75,"","Q",0,"Miss",0,0
+267,"Perished","Third","Panula, Mr. Ernesti Arvid","male",16,4,1,"3101295",39.6875,"","S",0,"Mr",5,0
+274,"Perished","First","Natsch, Mr. Charles H","male",37,0,1,"PC 17596",29.7,"C118","C",0,"Mr",1,0
+282,"Perished","Third","Olsson, Mr. Nils Johan Goransson","male",28,0,0,"347464",7.8542,"","S",0,"Mr",0,0
+286,"Perished","Third","Stankovic, Mr. Ivan","male",33,0,0,"349239",8.6625,"","C",0,"Mr",0,0
+299,"Survived","First","Saalfeld, Mr. Adolphe","male",42.0259259259259,0,0,"19988",30.5,"C106","S",1,"Mr",0,0
+302,"Survived","Third","McCoy, Mr. Bernard","male",29.3282442748092,2,0,"367226",23.25,"","Q",1,"Mr",2,0
+305,"Perished","Third","Williams, Mr. Howard Hugh ""Harry""","male",29.3282442748092,0,0,"A/5 2466",8.05,"","S",0,"Mr",0,0
+310,"Survived","First","Francatelli, Miss. Laura Mabel","female",30,0,0,"PC 17485",56.9292,"E36","C",1,"Miss",0,0
+320,"Survived","First","Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)","female",40,1,1,"16966",134.5,"E34","C",1,"Mrs",2,0
+321,"Perished","Third","Dennis, Mr. Samuel","male",22,0,0,"A/5 21172",7.25,"","S",0,"Mr",0,0
+327,"Perished","Third","Nysveen, Mr. Johan Hansen","male",61,0,0,"345364",6.2375,"","S",0,"Mr",0,0
+328,"Survived","Second","Ball, Mrs. (Ada E Hall)","female",36,0,0,"28551",13,"D","S",1,"Mrs",0,0
+330,"Survived","First","Hippach, Miss. Jean Gertrude","female",16,0,1,"111361",57.9792,"B18","C",1,"Miss",1,0
+335,"Survived","First","Frauenthal, Mrs. Henry William (Clara Heinsheimer)","female",42.0259259259259,1,0,"PC 17611",133.65,"","S",1,"Mrs",1,0
+342,"Survived","First","Fortune, Miss. Alice Elizabeth","female",24,3,2,"19950",263,"C23 C25 C27","S",1,"Miss",5,0
+344,"Perished","Second","Sedgwick, Mr. Charles Frederick Waddington","male",25,0,0,"244361",13,"","S",0,"Mr",0,0
+346,"Survived","Second","Brown, Miss. Amelia ""Mildred""","female",24,0,0,"248733",13,"F33","S",1,"Miss",0,0
+349,"Survived","Third","Coutts, Master. William Loch ""William""","male",3,1,1,"C.A. 37671",15.9,"","S",1,"Master",2,0
+352,"Perished","First","Williams-Lambert, Mr. Fletcher Fellows","male",42.0259259259259,0,0,"113510",35,"C128","S",0,"Mr",0,0
+364,"Perished","Third","Asim, Mr. Adola","male",35,0,0,"SOTON/O.Q. 3101310",7.05,"","S",0,"Mr",0,0
+366,"Perished","Third","Adahl, Mr. Mauritz Nils Martin","male",30,0,0,"C 7076",7.25,"","S",0,"Mr",0,0
+367,"Survived","First","Warren, Mrs. Frank Manley (Anna Sophia Atkinson)","female",60,1,0,"110813",75.25,"D37","C",1,"Mrs",1,0
+373,"Perished","Third","Beavan, Mr. William Thomas","male",19,0,0,"323951",8.05,"","S",0,"Mr",0,0
+383,"Perished","Third","Tikkanen, Mr. Juho","male",32,0,0,"STON/O 2. 3101293",7.925,"","S",0,"Mr",0,0
+387,"Perished","Third","Goodwin, Master. Sidney Leonard","male",1,5,2,"CA 2144",46.9,"","S",0,"Master",7,0
+394,"Survived","First","Newell, Miss. Marjorie","female",23,1,0,"35273",113.275,"D36","C",1,"Miss",1,0
+396,"Perished","Third","Johansson, Mr. Erik","male",22,0,0,"350052",7.7958,"","S",0,"Mr",0,0
+400,"Survived","Second","Trout, Mrs. William H (Jessie L)","female",28,0,0,"240929",12.65,"","S",1,"Mrs",0,0
+404,"Perished","Third","Hakkarainen, Mr. Pekka Pietari","male",28,1,0,"STON/O2. 3101279",15.85,"","S",0,"Mr",1,0
+409,"Perished","Third","Birkeland, Mr. Hans Martin Monsen","male",21,0,0,"312992",7.775,"","S",0,"Mr",0,0
+410,"Perished","Third","Lefebre, Miss. Ida","female",6.44791666666667,3,1,"4133",25.4667,"","S",0,"Miss",4,0
+413,"Survived","First","Minahan, Miss. Daisy E","female",33,1,0,"19928",90,"C78","Q",1,"Miss",1,0
+414,"Perished","Second","Cunningham, Mr. Alfred Fleming","male",33.5757575757576,0,0,"239853",15.75,"","S",0,"Mr",0,0
+427,"Survived","Second","Clarke, Mrs. Charles V (Ada Maria Winfield)","female",28,1,0,"2003",26,"","S",1,"Mrs",1,0
+430,"Survived","Third","Pickard, Mr. Berk (Berk Trembisky)","male",32,0,0,"SOTON/O.Q. 392078",8.05,"E10","S",1,"Mr",0,0
+434,"Perished","Third","Kallio, Mr. Nikolai Erland","male",17,0,0,"STON/O 2. 3101274",7.125,"","S",0,"Mr",0,0
+435,"Perished","First","Silvey, Mr. William Baird","male",50,1,0,"13507",55.9,"E44","S",0,"Mr",1,0
+442,"Perished","Third","Hampe, Mr. Leon","male",20,0,0,"345769",9.5,"","S",0,"Mr",0,0
+446,"Survived","First","Dodge, Master. Washington","male",4,0,2,"33638",81.8583,"A34","S",1,"Master",2,0
+448,"Survived","First","Seward, Mr. Frederic Kimber","male",34,0,0,"113794",26.55,"","S",1,"Mr",0,0
+450,"Survived","First","Peuchen, Major. Arthur Godfrey","male",52,0,0,"113786",30.5,"C104","S",1,"Sir",0,0
+460,"Perished","Third","O'Connor, Mr. Maurice","male",29.3282442748092,0,0,"371060",7.75,"","Q",0,"Mr",0,0
+462,"Perished","Third","Morley, Mr. William","male",34,0,0,"364506",8.05,"","S",0,"Mr",0,0
+463,"Perished","First","Gee, Mr. Arthur H","male",47,0,0,"111320",38.5,"E63","S",0,"Mr",0,0
+467,"Perished","Second","Campbell, Mr. William","male",33.5757575757576,0,0,"239853",15.75,"","S",0,"Mr",0,0
+474,"Survived","Second","Jerwan, Mrs. Amin S (Marie Marthe Thuillard)","female",23,0,0,"SC/AH Basle 541",13.7917,"D","C",1,"Mrs",0,0
+480,"Survived","Third","Hirvonen, Miss. Hildur E","female",2,0,1,"3101298",12.2875,"","S",1,"Miss",1,0
+482,"Perished","Second","Frost, Mr. Anthony Wood ""Archie""","male",33.5757575757576,0,0,"239854",15.75,"","S",0,"Mr",0,0
+485,"Survived","First","Bishop, Mr. Dickinson H","male",25,1,0,"11967",91.0792,"B49","C",1,"Mr",1,0
+486,"Perished","Third","Lefebre, Miss. Jeannie","female",6.44791666666667,3,1,"4133",25.4667,"","S",0,"Miss",4,0
+490,"Survived","Third","Coutts, Master. Eden Leslie ""Neville""","male",9,1,1,"C.A. 37671",15.9,"","S",1,"Master",2,0
+492,"Perished","Third","Windelov, Mr. Einar","male",21,0,0,"SOTON/OQ 3101317",7.25,"","S",0,"Mr",0,0
+493,"Perished","First","Molson, Mr. Harry Markland","male",55,0,0,"113787",30.5,"C30","S",0,"Mr",0,0
+500,"Perished","Third","Svensson, Mr. Olof","male",24,0,0,"350035",7.7958,"","S",0,"Mr",0,0
+502,"Perished","Third","Canavan, Miss. Mary","female",21,0,0,"364846",7.75,"","Q",0,"Miss",0,0
+503,"Perished","Third","O'Sullivan, Miss. Bridget Mary","female",21.4772727272727,0,0,"330909",7.6292,"","Q",0,"Miss",0,0
+504,"Perished","Third","Laitinen, Miss. Kristina Sofia","female",37,0,0,"4135",9.5875,"","S",0,"Miss",0,0
+505,"Survived","First","Maioni, Miss. Roberta","female",16,0,0,"110152",86.5,"B79","S",1,"Miss",0,0
+507,"Survived","Second","Quick, Mrs. Frederick Charles (Jane Richards)","female",33,0,2,"26360",26,"","S",1,"Mrs",2,0
+511,"Survived","Third","Daly, Mr. Eugene Patrick","male",29,0,0,"382651",7.75,"","Q",1,"Mr",0,0
+517,"Survived","Second","Lemore, Mrs. (Amelia Milley)","female",34,0,0,"C.A. 34260",10.5,"F33","S",1,"Mrs",0,0
+519,"Survived","Second","Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)","female",36,1,0,"226875",26,"","S",1,"Mrs",1,0
+524,"Survived","First","Hippach, Mrs. Louis Albert (Ida Sophia Fischer)","female",44,0,1,"111361",57.9792,"B18","C",1,"Mrs",1,0
+525,"Perished","Third","Kassem, Mr. Fared","male",29.3282442748092,0,0,"2700",7.2292,"","C",0,"Mr",0,0
+532,"Perished","Third","Toufik, Mr. Nakli","male",29.3282442748092,0,0,"2641",7.2292,"","C",0,"Mr",0,0
+543,"Perished","Third","Andersson, Miss. Sigrid Elisabeth","female",11,4,2,"347082",31.275,"","S",0,"Miss",6,0
+546,"Perished","First","Nicholson, Mr. Arthur Ernest","male",64,0,0,"693",26,"","S",0,"Mr",0,0
+547,"Survived","Second","Beane, Mrs. Edward (Ethel Clarke)","female",19,1,0,"2908",26,"","S",1,"Mrs",1,0
+552,"Perished","Second","Sharp, Mr. Percival James R","male",27,0,0,"244358",26,"","S",0,"Mr",0,0
+562,"Perished","Third","Sivic, Mr. Husein","male",40,0,0,"349251",7.8958,"","S",0,"Mr",0,0
+563,"Perished","Second","Norman, Mr. Robert Douglas","male",28,0,0,"218629",13.5,"","S",0,"Mr",0,0
+567,"Perished","Third","Stoytcheff, Mr. Ilia","male",19,0,0,"349205",7.8958,"","S",0,"Mr",0,0
+581,"Survived","Second","Christy, Miss. Julie Rachel","female",25,1,1,"237789",30,"","S",1,"Miss",2,0
+591,"Perished","Third","Rintamaki, Mr. Matti","male",35,0,0,"STON/O 2. 3101273",7.125,"","S",0,"Mr",0,0
+594,"Perished","Third","Bourke, Miss. Mary","female",6.44791666666667,0,2,"364848",7.75,"","Q",0,"Miss",2,0
+596,"Perished","Third","Van Impe, Mr. Jean Baptiste","male",36,1,1,"345773",24.15,"","S",0,"Mr",2,0
+598,"Perished","Third","Johnson, Mr. Alfred","male",49,0,0,"LINE",8.05,"","S",0,"Mr",0,0
+600,"Survived","First","Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")","male",49,1,0,"PC 17485",56.9292,"A20","C",1,"Sir",1,0
+602,"Perished","Third","Slabenoff, Mr. Petco","male",29.3282442748092,0,0,"349214",7.8958,"","S",0,"Mr",0,0
+614,"Perished","Third","Horgan, Mr. John","male",29.3282442748092,0,0,"370377",7.75,"","Q",0,"Mr",0,0
+618,"Perished","Third","Lobb, Mrs. William Arthur (Cordelia K Stanlick)","female",26,1,0,"A/5. 3336",16.1,"","S",0,"Mrs",1,0
+624,"Perished","Third","Hansen, Mr. Henry Damsgaard","male",21,0,0,"350029",7.8542,"","S",0,"Mr",0,0
+625,"Perished","Third","Bowen, Mr. David John ""Dai""","male",21,0,0,"54636",16.1,"","S",0,"Mr",0,0
+630,"Perished","Third","O'Connell, Mr. Patrick D","male",29.3282442748092,0,0,"334912",7.7333,"","Q",0,"Mr",0,0
+637,"Perished","Third","Leinonen, Mr. Antti Gustaf","male",32,0,0,"STON/O 2. 3101292",7.925,"","S",0,"Mr",0,0
+638,"Perished","Second","Collyer, Mr. Harvey","male",31,1,1,"C.A. 31921",26.25,"","S",0,"Mr",2,0
+639,"Perished","Third","Panula, Mrs. Juha (Maria Emilia Ojala)","female",41,0,5,"3101295",39.6875,"","S",0,"Mrs",5,0
+644,"Survived","Third","Foo, Mr. Choong","male",29.3282442748092,0,0,"1601",56.4958,"","S",1,"Mr",0,0
+645,"Survived","Third","Baclini, Miss. Eugenie","female",0.75,2,1,"2666",19.2583,"","C",1,"Miss",3,0
+649,"Perished","Third","Willey, Mr. Edward","male",29.3282442748092,0,0,"S.O./P.P. 751",7.55,"","S",0,"Mr",0,0
+651,"Perished","Third","Mitkoff, Mr. Mito","male",29.3282442748092,0,0,"349221",7.8958,"","S",0,"Mr",0,0
+652,"Survived","Second","Doling, Miss. Elsie","female",18,0,1,"231919",23,"","S",1,"Miss",1,0
+655,"Perished","Third","Hegarty, Miss. Hanora ""Nora""","female",18,0,0,"365226",6.75,"","Q",0,"Miss",0,0
+658,"Perished","Third","Bourke, Mrs. John (Catherine)","female",32,1,1,"364849",15.5,"","Q",0,"Mrs",2,0
+665,"Survived","Third","Lindqvist, Mr. Eino William","male",20,1,0,"STON/O 2. 3101285",7.925,"","S",1,"Mr",1,0
+666,"Perished","Second","Hickman, Mr. Lewis","male",32,2,0,"S.O.C. 14879",73.5,"","S",0,"Mr",2,0
+667,"Perished","Second","Butler, Mr. Reginald Fenton","male",25,0,0,"234686",13,"","S",0,"Mr",0,0
+670,"Survived","First","Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)","female",42.0259259259259,1,0,"19996",52,"C126","S",1,"Mrs",1,0
+671,"Survived","Second","Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)","female",40,1,1,"29750",39,"","S",1,"Mrs",2,0
+672,"Perished","First","Davidson, Mr. Thornton","male",31,1,0,"F.C. 12750",52,"B71","S",0,"Mr",1,0
+680,"Survived","First","Cardeza, Mr. Thomas Drake Martinez","male",36,0,1,"PC 17755",512.3292,"B51 B53 B55","C",1,"Mr",1,0
+683,"Perished","Third","Olsvigen, Mr. Thor Anderson","male",20,0,0,"6563",9.225,"","S",0,"Mr",0,0
+687,"Perished","Third","Panula, Mr. Jaako Arnold","male",14,4,1,"3101295",39.6875,"","S",0,"Mr",5,0
+691,"Survived","First","Dick, Mr. Albert Adrian","male",31,1,0,"17474",57,"B20","S",1,"Mr",1,0
+692,"Survived","Third","Karun, Miss. Manca","female",4,0,1,"349256",13.4167,"","C",1,"Miss",1,0
+695,"Perished","First","Weir, Col. John","male",60,0,0,"113800",26.55,"","S",0,"Col",0,0
+700,"Perished","Third","Humblen, Mr. Adolf Mathias Nicolai Olsen","male",42,0,0,"348121",7.65,"F G63","S",0,"Mr",0,0
+701,"Survived","First","Astor, Mrs. John Jacob (Madeleine Talmadge Force)","female",18,1,0,"PC 17757",227.525,"C62 C64","C",1,"Mrs",1,0
+706,"Perished","Second","Morley, Mr. Henry Samuel (""Mr Henry Marshall"")","male",39,0,0,"250655",26,"","S",0,"Mr",0,0
+713,"Survived","First","Taylor, Mr. Elmer Zebley","male",48,1,0,"19996",52,"C126","S",1,"Mr",1,0
+720,"Perished","Third","Johnson, Mr. Malkolm Joackim","male",33,0,0,"347062",7.775,"","S",0,"Mr",0,0
+721,"Survived","Second","Harper, Miss. Annie Jessie ""Nina""","female",6,0,1,"248727",33,"","S",1,"Miss",1,0
+724,"Perished","Second","Hodges, Mr. Henry Price","male",50,0,0,"250643",13,"","S",0,"Mr",0,0
+726,"Perished","Third","Oreskovic, Mr. Luka","male",20,0,0,"315094",8.6625,"","S",0,"Mr",0,0
+727,"Survived","Second","Renouf, Mrs. Peter Henry (Lillian Jefferys)","female",30,3,0,"31027",21,"","S",1,"Mrs",3,0
+729,"Perished","Second","Bryhl, Mr. Kurt Arnold Gottfrid","male",25,1,0,"236853",26,"","S",0,"Mr",1,0
+730,"Perished","Third","Ilmakangas, Miss. Pieta Sofia","female",25,1,0,"STON/O2. 3101271",7.925,"","S",0,"Miss",1,0
+731,"Survived","First","Allen, Miss. Elisabeth Walton","female",29,0,0,"24160",211.3375,"B5","S",1,"Miss",0,0
+734,"Perished","Second","Berriman, Mr. William John","male",23,0,0,"28425",13,"","S",0,"Mr",0,0
+742,"Perished","First","Cavendish, Mr. Tyrell William","male",36,1,0,"19877",78.85,"C46","S",0,"Mr",1,0
+745,"Survived","Third","Stranden, Mr. Juho","male",31,0,0,"STON/O 2. 3101288",7.925,"","S",1,"Mr",0,0
+748,"Survived","Second","Sinkkonen, Miss. Anna","female",30,0,0,"250648",13,"","S",1,"Miss",0,0
+751,"Survived","Second","Wells, Miss. Joan","female",4,1,1,"29103",23,"","S",1,"Miss",2,0
+753,"Perished","Third","Vande Velde, Mr. Johannes Joseph","male",33,0,0,"345780",9.5,"","S",0,"Mr",0,0
+756,"Survived","Second","Hamalainen, Master. Viljo","male",0.67,1,1,"250649",14.5,"","S",1,"Master",2,0
+768,"Perished","Third","Mangan, Miss. Mary","female",30.5,0,0,"364850",7.75,"","Q",0,"Miss",0,0
+770,"Perished","Third","Gronnestad, Mr. Daniel Danielsen","male",32,0,0,"8471",8.3625,"","S",0,"Mr",0,0
+772,"Perished","Third","Jensen, Mr. Niels Peder","male",48,0,0,"350047",7.8542,"","S",0,"Mr",0,0
+784,"Perished","Third","Johnston, Mr. Andrew G","male",29.3282442748092,1,2,"W./C. 6607",23.45,"","S",0,"Mr",3,0
+786,"Perished","Third","Harmer, Mr. Abraham (David Lishin)","male",25,0,0,"374887",7.25,"","S",0,"Mr",0,0
+787,"Survived","Third","Sjoblom, Miss. Anna Sofia","female",18,0,0,"3101265",7.4958,"","S",1,"Miss",0,0
+794,"Perished","First","Hoyt, Mr. William Fisher","male",42.0259259259259,0,0,"PC 17600",30.6958,"","C",0,"Mr",0,0
+797,"Survived","First","Leader, Dr. Alice (Farnham)","female",49,0,0,"17465",25.9292,"D17","S",1,"Dr",0,0
+802,"Survived","Second","Collyer, Mrs. Harvey (Charlotte Annie Tate)","female",31,1,1,"C.A. 31921",26.25,"","S",1,"Mrs",2,0
+803,"Survived","First","Carter, Master. William Thornton II","male",11,1,2,"113760",120,"B96 B98","S",1,"Master",3,0
+805,"Survived","Third","Hedman, Mr. Oskar Arvid","male",27,0,0,"347089",6.975,"","S",1,"Mr",0,0
+808,"Perished","Third","Pettersson, Miss. Ellen Natalia","female",18,0,0,"347087",7.775,"","S",0,"Miss",0,0
+818,"Perished","Second","Mallet, Mr. Albert","male",31,1,1,"S.C./PARIS 2079",37.0042,"","C",0,"Mr",2,0
+823,"Perished","First","Reuchlin, Jonkheer. John George","male",38,0,0,"19972",61.175,"","S",0,"Jonkheer",0,0
+824,"Survived","Third","Moor, Mrs. (Beila)","female",27,0,1,"392096",12.475,"E121","S",1,"Mrs",1,0
+830,"Survived","First","Stone, Mrs. George Nelson (Martha Evelyn)","female",62,0,0,"113572",80,"B28","S",1,"Mrs",0,0
+832,"Survived","Second","Richards, Master. George Sibley","male",0.83,1,1,"29106",18.75,"","S",1,"Master",2,0
+834,"Perished","Third","Augustsson, Mr. Albert","male",23,0,0,"347468",7.8542,"","S",0,"Mr",0,0
+842,"Perished","Second","Mudd, Mr. Thomas Charles","male",16,0,0,"S.O./P.P. 3",10.5,"","S",0,"Mr",0,0
+843,"Survived","First","Serepeca, Miss. Augusta","female",30,0,0,"113798",31,"","C",1,"Miss",0,0
+844,"Perished","Third","Lemberopolous, Mr. Peter L","male",34.5,0,0,"2683",6.4375,"","C",0,"Mr",0,0
+851,"Perished","Third","Andersson, Master. Sigvard Harald Elias","male",4,4,2,"347082",31.275,"","S",0,"Master",6,0
+858,"Survived","First","Daly, Mr. Peter Denis ","male",51,0,0,"113055",26.55,"E17","S",1,"Mr",0,0
+864,"Perished","Third","Sage, Miss. Dorothy Edith ""Dolly""","female",18.94,8,2,"CA. 2343",69.55,"","S",0,"Miss",10,0
+867,"Survived","Second","Duran y More, Miss. Asuncion","female",27,1,0,"SC/PARIS 2149",13.8583,"","C",1,"Miss",1,0
+868,"Perished","First","Roebling, Mr. Washington Augustus II","male",31,0,0,"PC 17590",50.4958,"A24","S",0,"Mr",0,0
+883,"Perished","Third","Dahlberg, Miss. Gerda Ulrika","female",22,0,0,"7552",10.5167,"","S",0,"Miss",0,0
+884,"Perished","Second","Banfield, Mr. Frederick James","male",28,0,0,"C.A./SOTON 34068",10.5,"","S",0,"Mr",0,0
+885,"Perished","Third","Sutehall, Mr. Henry Jr","male",25,0,0,"SOTON/OQ 392076",7.05,"","S",0,"Mr",0,0
+888,"Survived","First","Graham, Miss. Margaret Edith","female",19,0,0,"112053",30,"B42","S",1,"Miss",0,0
