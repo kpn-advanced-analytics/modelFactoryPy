@@ -30,14 +30,6 @@ ENV MODELFACTORY=/opt/notebooks
 COPY config.yaml /opt/notebooks
 RUN chmod a+rwx opt/notebooks/config.yaml
 
-## install jenkins
-RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | apt-key add -
-RUN sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-RUN apt-get update && apt-get install jenkins -y
-
-ENV JAVA_OPTS="-Xmx8192m"
-ENV JENNIKS_OPTS="--handlerCountStartup=100 --handlerCountMax=300"
-
 ## install postgres, create model factory schema and needed tables
 RUN apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8
 RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main" > /etc/apt/sources.list.d/pgdg.list
@@ -49,9 +41,6 @@ RUN chmod a+r create_schema.sql
 RUN usermod -a -G sudo postgres
 RUN echo "postgres ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-COPY run_postgres.sh /opt/conda/bin
-RUN chmod a+rwx /opt/conda/bin/run_postgres.sh
-
 USER postgres
 RUN  /etc/init.d/postgresql start && psql --command "CREATE USER modelfactory WITH SUPERUSER PASSWORD 'modelfactory';" && \
      psql -U postgres -a -q -w -f create_schema.sql
@@ -60,7 +49,20 @@ RUN sed -i "/^#listen_addresses/i listen_addresses='*'" /etc/postgresql/9.3/main
 RUN sed -i "/^# DO NOT DISABLE\!/i # Allow access from any IP address" /etc/postgresql/9.3/main/pg_hba.conf
 RUN sed -i "/^# DO NOT DISABLE\!/i host all all 0.0.0.0/0 md5" /etc/postgresql/9.3/main/pg_hba.conf
 
+## install jenkins
+USER root
+RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | apt-key add -
+RUN sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+RUN apt-get update && apt-get install jenkins -y
+
+VOLUME /var/lib/jenkins
+ENV JENKINS_HOME /var/lib/jenkins
+
+ADD run /usr/local/bin/run
+RUN chmod a+rwx /usr/local/bin/run
+
 ## CMD
-#CMD [ "/bin/bash" ]
-CMD /usr/lib/postgresql/9.3/bin/postgres -D /var/lib/postgresql/9.3/main -c config_file=/etc/postgresql/9.3/main/postgresql.conf  &  opt/conda/bin/run_jupyter.sh
 EXPOSE 5432 8888 8080
+CMD opt/conda/bin/run_jupyter.sh & \
+    /usr/local/bin/run & \ 
+    sudo -u postgres /usr/lib/postgresql/9.3/bin/postgres -D /var/lib/postgresql/9.3/main -c config_file=/etc/postgresql/9.3/main/postgresql.conf
