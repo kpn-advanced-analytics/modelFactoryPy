@@ -5,6 +5,7 @@ import ruamel.yaml as yaml
 import pandas as pd
 import time
 import datetime
+import sys
 from random import randint
 #import getpass
 
@@ -29,8 +30,8 @@ def addModelId(model_id, model_description, score_id_type):
         raise ValueError('Given model_id is already present in model_factory.model_overview table')
         connection.close()
     else:
-        connection.execute("INSERT INTO model_factory.model_overview (model_id,model_description,score_id_type) VALUES ('%s', '%s', '%s')"
-                          % (model_id, model_description, score_id_type))
+        connection.execute("INSERT INTO model_factory.model_overview (model_id,model_description,score_id_type,experimental,production) VALUES ('%s', '%s', '%s', '%s', '%s')"
+                          % (model_id, model_description, score_id_type, '1', '0'))
         connection.close()
         ## it will add rows to model_overview table
 
@@ -86,6 +87,7 @@ def closeSession():
     connection = engine.connect()
     connection.execute("update model_factory.run_history  SET end_time ='"+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))+"' where session_id='"
                        +session_id+"'")
+    sys.stdout.write(session_id)
     connection.close()   
 ## add streamAPI option
 
