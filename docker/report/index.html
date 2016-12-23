@@ -1,94 +1,19 @@
-<script src="https://d3js.org/d3.v4.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="jquery.csvToTable.js"></script>
-<script>
-	function saveAsPng(canvasId) {
-		var canvas = document.getElementById(canvasId),
-		context = canvas.getContext('2d');
-
-		var data = "data:image/svg+xml," +
-		   "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>" +
-		     "<foreignObject width='100%' height='100%'>" +
-		       "<div xmlns='http://www.w3.org/1999/xhtml' style='font-size:40px'>" +
-		         "<div xmlns='http://www.w3.org/1999/xhtml'>aaaa<span>aaaa</span></div>" +
-		       "</div>" +
-		     "</foreignObject>" +
-		   "</svg>"
-		;
-
-		var img = new Image();
-
-		img.src = data;
-
-		img.onload = function() {
-		    context.drawImage(img, 100, 100);                   
-		};
-
-		context.translate(canvas.width / 2, canvas.height / 2);
-		context.scale(0.4, 0.4);
-	}
-</script>
-<script>
-	function saveAsPng2(canvasId) {
-	    genChart();
-	    var nodeList = document.getElementById(canvasId).querySelector('svg').querySelectorAll('.c3-chart path');
-	    var nodeList2 = document.getElementById(canvasId).querySelector('svg').querySelectorAll('.c3-axis path');
-	    var nodeList3 = document.getElementById(canvasId).querySelector('svg').querySelectorAll('.c3 line');
-	    var line_graph = Array.from(nodeList);
-	    var x_and_y = Array.from(nodeList2).concat(Array.from(nodeList3));
-	    line_graph.forEach(function(element){
-	        element.style.fill = "none";
-	    })
-	    x_and_y.forEach(function(element){
-	        element.style.fill = "none";
-	        element.style.stroke = "black";
-	    })
-	    exportImageAsPNG();
-	}
-</script>
-<style>
-	table {
-	    border-collapse: collapse;
-	}
-
-	table, th, td {
-	    border: 1px solid #a59999;
-	    padding: 5px;
-	    font-family: sans-serif;
-	}
-
-	tr:nth-child(even) {background-color: #f2f2f2}
-
-	th {
-	    background-color: #4CAF50;
-	    color: white;
-	}
-	.plots{
-		width: 400px;
-	}	
-</style>
+<h2>Run information</h2>
 <div id="run_container"></div>
-<script>
-$('#run_container').CSVToTable('run.csv')
-</script>
+<IFRAME SRC="run.html" WIDTH="445" HEIGHT="325"> </IFRAME>
 
-<img class="plots" src="varimp.png" alt="Variable Importance" width=400 />
-<img class="plots" src="lift.png" alt="Lift"  width=400 />
-<img class="plots" src="ROC.png" alt="ROC"  width=400 />
+<img class="plots" src="lift.png" alt="Lift"  width=330 />
+<img class="plots" src="ROC.png" alt="ROC"  width=330 />
+
 <h2>Summary</h2>
 <div id="summary_container"></div>
-<script>
-$('#summary_container').CSVToTable('summary.csv')
-</script>
+<IFRAME SRC="summary.html" WIDTH="700" HEIGHT="230"> </IFRAME>
+
 <h2>Confusion Matrix</h2>
 <div id="c_matrix_container"></div>
-<script>
-$('#c_matrix_container').CSVToTable('c_matrix.csv')
-</script>
+<IFRAME SRC="c_matrix.html" WIDTH="415" HEIGHT="90"> </IFRAME>
+
 <h2>Accuracy</h2>
 <div id="acc_container"></div>
-<script>
-$('#acc_container').CSVToTable('acc.csv')
-</script>
+<IFRAME SRC="acc.html" WIDTH="90" HEIGHT="67"> </IFRAME>
 
