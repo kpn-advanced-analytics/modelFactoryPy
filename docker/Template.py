@@ -13,7 +13,10 @@ import sys
 # ## 1. Get connection; define model_id, get session id
 main.getConnection()
 model_id = 'titanic_training'
-#main.addModelId('titanic_training','Training on titanic data','passengerid')
+try:
+    main.addModelId('titanic_training','Training on titanic data','passengerid')
+except:
+    pass
 main.getSessionId(model_id)
 
 # ## 2. Load the data

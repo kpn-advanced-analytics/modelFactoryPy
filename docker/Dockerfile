@@ -52,22 +52,16 @@ RUN sed -i "/^# DO NOT DISABLE\!/i host all all 0.0.0.0/0 md5" /etc/postgresql/9
 USER root
 
 COPY config.yaml /opt/notebooks
-RUN chmod a+rwx /opt/notebooks/config.yaml
-
 COPY Template.ipynb /opt/notebooks/Template
-RUN chmod a+rwx /opt/notebooks/Template/Template.ipynb
-
 COPY Template.py /opt/notebooks/Template
-RUN chmod a+rwx /opt/notebooks/Template/Template.py
-
 COPY titanic.csv /opt/notebooks/data
-RUN chmod a+rwx opt/notebooks/data/titanic.csv
+ADD report/ /opt/notebooks/report
 
 COPY run_jupyter.sh /opt/conda/bin
-RUN chmod a+rwx /opt/conda/bin/run_jupyter.sh
 
-ADD report/ /opt/notebooks/report
-RUN chmod -R a+rwx /opt/notebooks/report
+RUN chmod -R a+rxw /opt/notebooks
+RUN chmod -R a+rxw /opt/conda/bin
+RUN sudo find /opt/conda/bin -type d -exec chmod a+rwx {} \;
 
 COPY run /usr/local/bin/run
 RUN chmod a+rwx /usr/local/bin/run
