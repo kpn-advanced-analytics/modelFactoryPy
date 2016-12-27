@@ -1,7 +1,7 @@
 # modelFactoryPy
 Python package for Model Factory created by Advanced Analytics team at KPN.
 
-What is Model Factory: https://gist.github.com/kpn-advanced-analytics/13477b6d419531bc7232ef4da1a4cda2
+[What is Model Factory?](https://gist.github.com/kpn-advanced-analytics/13477b6d419531bc7232ef4da1a4cda2)
 
 ### How to get started with your own Model Factory:
 
