@@ -1,11 +1,13 @@
 # modelFactoryPy
 Python package for Model Factory created by Advanced Analytics team at KPN.
 
-What is Model Factory: https://gist.github.com/kpn-advanced-analytics/13477b6d419531bc7232ef4da1a4cda2
+[What is Model Factory?](https://gist.github.com/kpn-advanced-analytics/13477b6d419531bc7232ef4da1a4cda2)
+
+In order to test the package with PostgreSQL, check [the modelfactory docker image](https://hub.docker.com/r/kpnadvancedanalytics/modelfactory/)
 
 ### How to get started with your own Model Factory:
 
-1) First of all, you need PostgresSQL. If you do not have it and want to play with modelfactory, install PostgresSQL on your laptop or use Amazon RDS (it allows a one year free trial). **ModelFactory works now also with Aster** (has some limitations at the moment, see sqlalchemy_mf_aster.
+1) First of all, you need PostgreSQL. If you do not have it and want to play with modelfactory, install PostgreSQL on your laptop or use Amazon RDS (it allows a one year free trial). **ModelFactory works now also with Aster** (has some limitations at the moment, see sqlalchemy_mf_aster.
 
 2) After PostgresSQL (or Aster) is installed, create MODELFACTORY environmental variable. On Windows it can be tricky, you need to do the following:
    
@@ -15,7 +17,7 @@ What is Model Factory: https://gist.github.com/kpn-advanced-analytics/13477b6d41
       
       -in command line call echo %MODELFACTORY% -> this should return the specified path
       
-3) Copy the config.yaml file that you can find in the repository in folder specified in MODELFACTORY (e.g., C:\Projects). Fill in the config.yaml file with the username, password and host you use to connect to PostgresSQL/Aster.
+3) Copy the config.yaml file that you can find in the repository in folder specified in MODELFACTORY (e.g., C:\Projects). Fill in the config.yaml file with the username, password and host you use to connect to PostgreSQL/Aster.
 
 4) Run postgres_create_tables.sql file in PostgresSQL to create correct schema and tables.
 
