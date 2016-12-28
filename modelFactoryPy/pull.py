@@ -2,46 +2,80 @@
 import sqlalchemy
 import pandas as pd
 import main
+import warnings
 
 def pullSummary(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
-    if type(session_id) == str:
         session_id = session_id
     else:
-        raise ValueError('Session id must be of type list or str')
+        session_id = [session_id]
 
     connection = main.engine.connect()
-    a = connection.execute("select * from model_factory.model_summary where session_id in ('"+session_id+"')")
+    a = connection.execute("select distinct session_id from model_factory.model_summary where session_id in ("+str(session_id).replace('[', '').replace(']', '')+")")
     b = a.fetchall()
-    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+    check_session_id = pd.DataFrame.from_records(b, columns=a.keys()).session_id.tolist()
 
-    if len(check_session_id) > 0:
-        return check_session_id
+    if len(check_session_id) < len(session_id):
+        raise ValueError("The following session_id's are not present in model_factory.model_summary table: %s"
+                         % str(list(set(session_id)-set(check_session_id))).replace('[', '').replace(']', ''))
         connection.close()
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_summary table')
+        a1 = connection.execute(
+            "select * from model_factory.model_summary where session_id in (" + str(session_id).replace('[', '').replace(']', '') + ")")
+        b1 = a1.fetchall()
+        summary = pd.DataFrame.from_records(b1, columns=a1.keys())
         connection.close()
+        return summary
 
 def pullTestResults(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
-    if type(session_id) == str:
         session_id = session_id
     else:
-        raise ValueError('Session id must be of type list or str')
+        session_id = [session_id]
 
-    connection = main.engine.connect()
-    a = connection.execute("select * from model_factory.model_test_results where session_id in ('"+session_id+"')")
-    b = a.fetchall()
-    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+    try:
+        test_results_dict
+    except NameError:
+        global test_results_dict
+        test_results_dict = dict()
 
-    if len(check_session_id) > 0:
-        return check_session_id
-        connection.close()
+    known_session_id = [session_id[e] for e, i in enumerate(map(lambda x: test_results_dict.has_key(x), session_id)) if i == True]
+    unknown_session_id = list(set(session_id) - set(known_session_id))
+
+    if len(known_session_id) > 0:
+        test_results = pd.concat([test_results_dict[k] for k in known_session_id if k in test_results_dict])
+        warnings.warn("Test results for these sessions were already pulled and are being reused: %s"
+                      % str(known_session_id).replace('[', '').replace(']', ''))
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_test_results table')
-        connection.close()
+        test_results = pd.DataFrame()
+
+    if len(unknown_session_id) > 0:
+        connection = main.engine.connect()
+        a = connection.execute("select distinct session_id from model_factory.model_test_results where session_id in ("
+                               +str(unknown_session_id).replace('[', '').replace(']', '')+")")
+        b = a.fetchall()
+        check_session_id = pd.DataFrame.from_records(b, columns=a.keys()).session_id.tolist()
+
+        if len(check_session_id) < len(unknown_session_id):
+            raise ValueError("The following session_id's are not present in model_factory.model_test_results table: %s"
+                             % str(list(set(unknown_session_id)-set(check_session_id))).replace('[', '').replace(']', ''))
+            connection.close()
+        else:
+            a1 = connection.execute(
+                "select * from model_factory.model_test_results where session_id in (" + str(unknown_session_id).replace('[',
+                                                                                                            '').replace(']',
+                                                                                                                        '') + ")")
+            b1 = a1.fetchall()
+            test_results1 = pd.DataFrame.from_records(b1, columns=a1.keys())
+            connection.close()
+            for i in unknown_session_id:
+                test_results_dict[i] = test_results1[test_results1["session_id"] == i]
+    else:
+        test_results1 = pd.DataFrame()
+
+    test_results = pd.concat([test_results1, test_results])
+
+    return test_results
 
 
 def pullROC(session_id):
@@ -89,20 +123,25 @@ def pullAccuracy(session_id, threshold_value, threshold_type):
 
 def pullModelScores(session_id):
     if type(session_id) == list:
-        session_id = str(session_id).replace('[','').replace(']','')[1:-1]
-    if type(session_id) == str:
         session_id = session_id
     else:
-        raise ValueError('Session id must be of type list or str')
+        session_id = [session_id]
 
     connection = main.engine.connect()
-    a = connection.execute("select * from model_factory.model_scores where session_id in ('"+session_id+"')")
+    a = connection.execute("select distinct session_id from model_factory.model_scores where session_id in ("+str(session_id).replace('[', '').replace(']', '')+")")
     b = a.fetchall()
-    check_session_id = pd.DataFrame.from_records(b, columns=a.keys())
+    check_session_id = pd.DataFrame.from_records(b, columns=a.keys()).session_id.tolist()
 
-    if len(check_session_id) > 0:
-        return check_session_id
+    if len(check_session_id) < len(session_id):
+        raise ValueError("The following session_id's are not present in model_factory.model_scores table: %s"
+                         % str(list(set(session_id)-set(check_session_id))).replace('[', '').replace(']', ''))
         connection.close()
     else:
-        raise ValueError('Given session_id is not present in model_factory.model_scores table')
+        a1 = connection.execute(
+            "select * from model_factory.model_scores where session_id in (" + str(session_id).replace('[',
+                                                                                                        '').replace(']',
+                                                                                                                    '') + ")")
+        b1 = a1.fetchall()
+        scores = pd.DataFrame.from_records(b1, columns=a1.keys())
         connection.close()
+        return scores
