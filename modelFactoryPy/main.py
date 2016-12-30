@@ -7,18 +7,25 @@ import time
 import datetime
 import sys
 from random import randint
-#import getpass
+
 
 
 def getConnection(database = 'postgresql'):
     global config
     global engine
-    config = yaml.load(open(os.environ['MODELFACTORY'].replace('\\','/')+"/config.yaml")).get(database) ## needs to be changed
-    engine = sqlalchemy.create_engine(database+"://"+config.get('username')+":"+config.get('password')+"@"+
-                                      config.get('host')+"/"+config.get('database'))
+    if 'MODELFACTORY' in os.environ:
+        config = yaml.load(open(os.environ['MODELFACTORY'].replace('\\','/')+"/config.yaml")).get(database)
+    else:
+        config_list = sys.stdin.readline().split()
+        config = dict()
+        config['username'] = config_list[0]
+        config['password'] = config_list[1]
+        config['host'] = config_list[2]
+        config['database'] = config_list[3]
+        
+    engine = sqlalchemy.create_engine(database + "://" + config.get('username') + ":" + config.get('password') + "@" +
+                                      config.get('host') + "/" + config.get('database'))
     return engine
-## add streamAPI option + Jenkins
-#getpass.getuser()
 
 
 def addModelId(model_id, model_description, score_id_type):
