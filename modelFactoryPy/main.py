@@ -22,7 +22,7 @@ def getConnection(database = 'postgresql'):
         config['password'] = config_list[1]
         config['host'] = config_list[2]
         config['database'] = config_list[3]
-        
+
     engine = sqlalchemy.create_engine(database + "://" + config.get('username') + ":" + config.get('password') + "@" +
                                       config.get('host') + "/" + config.get('database'))
     return engine
@@ -94,9 +94,8 @@ def closeSession():
     connection = engine.connect()
     connection.execute("update model_factory.run_history  SET end_time ='"+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))+"' where session_id='"
                        +session_id+"'")
-    sys.stdout.write(session_id)
     connection.close()   
-## add streamAPI option
+	print session_id
 
 
 def deleteSession(session_id):
