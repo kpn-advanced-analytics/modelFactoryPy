@@ -95,7 +95,7 @@ def closeSession():
     connection.execute("update model_factory.run_history  SET end_time ='"+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))+"' where session_id='"
                        +session_id+"'")
     connection.close()   
-	print session_id
+    print session_id
 
 
 def deleteSession(session_id):
