@@ -2,4 +2,4 @@
 
 mkdir -p /var/lib/jenkins
 chown jenkins /var/lib/jenkins
-exec su jenkins -c "java -jar /usr/share/jenkins/jenkins.war"
+exec su jenkins -c "java -Dhudson.model.DirectoryBrowserSupport.CSP=\"style-src 'unsafe-inline' *; script-src 'unsafe-inline' *;\" -jar /usr/share/jenkins/jenkins.war"
