@@ -3,17 +3,6 @@ import sqlalchemy
 import pandas as pd
 import main
 import warnings
-import cPickle as pickle
-import base64
-
-def pullModel(session_id):
-    connection = main.engine.connect()
-    a = connection.execute("select * from model_factory.model_store where session_id='" + session_id + "'")
-    b = a.fetchall()
-    df = pd.DataFrame.from_records(b, columns=a.keys())
-    model = pickle.loads(base64.b64decode(df.model[0]))
-    connection.close()
-    return model
 
 def pullSummary(session_id):
     if type(session_id) == list:
