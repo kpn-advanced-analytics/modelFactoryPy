@@ -9,7 +9,6 @@ import sys
 from random import randint
 
 
-
 def getConnection(database = 'postgresql'):
     global config
     global engine
@@ -94,7 +93,7 @@ def closeSession():
     connection = engine.connect()
     connection.execute("update model_factory.run_history  SET end_time ='"+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))+"' where session_id='"
                        +session_id+"'")
-    connection.close()   
+    connection.close()
     print session_id
 
 
@@ -128,7 +127,7 @@ def deleteSession(session_id):
 
 
 def renameModel(old_model_id, new_model_id):
-    
+
     connection = engine.connect()
 
     a1 = connection.execute("select * from model_factory.model_overview where model_id='"+old_model_id+"'")
@@ -142,7 +141,7 @@ def renameModel(old_model_id, new_model_id):
     a3 = connection.execute("select * from model_factory.model_overview where model_id='" + new_model_id + "'")
     b3 = a3.fetchall()
     check_new_model_id = pd.DataFrame.from_records(b3, columns=a3.keys())
-    
+
     if len(check_old_model_id) == 0:
         raise ValueError('Given old_model_id is not present in model_factory.model_overview table, therefore can not be renamed')
     if len(check_new_model_id) > 0:
@@ -202,4 +201,4 @@ def renameModel(old_model_id, new_model_id):
         try:
             connection.execute("update model_factory.model_overview set model_id='"+new_model_id+"' where model_id='"+old_model_id+"'")
         except:
-            pass                                                                   
+            pass
